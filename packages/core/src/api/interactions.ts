@@ -1,6 +1,6 @@
 /* eslint-disable jsdoc/check-param-names */
 
-import type { RawFile, RequestData, REST } from '@discordjs/rest';
+import type { RawFile, RequestData, REST } from '@cyberpurge-net/rest';
 import { InteractionResponseType, Routes } from 'discord-api-types/v10';
 import type {
 	APICommandAutocompleteInteractionResponseCallbackData,

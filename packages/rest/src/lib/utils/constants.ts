@@ -1,4 +1,4 @@
-import { getUserAgentAppendix } from '@discordjs/util';
+import { getUserAgentAppendix } from '@cyberpurge-net/util';
 import { APIVersion } from 'discord-api-types/v10';
 import { getDefaultStrategy } from '../../environment.js';
 import type { RESTOptions, ResponseLike } from './types.js';
@@ -54,7 +54,7 @@ export type StickerExtension = (typeof ALLOWED_STICKER_EXTENSIONS)[number];
 export type ImageSize = (typeof ALLOWED_SIZES)[number];
 
 export const OverwrittenMimeTypes = {
-	// https://github.com/discordjs/discord.js/issues/8557
+	// https://github.com/cyberpurge-net/discord.js/issues/8557
 	'image/apng': 'image/png',
 } as const satisfies Readonly<Record<string, string>>;
 

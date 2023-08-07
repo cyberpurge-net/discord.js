@@ -1,1 +1,1 @@
-export * from '@discordjs/collection';
+export * from '@cyberpurge-net/collection';

@@ -1,4 +1,4 @@
-import { generateAllIndices } from '@discordjs/scripts';
+import { generateAllIndices } from '@cyberpurge-net/scripts';
 
 console.log('Generating all indices...');
 await generateAllIndices();

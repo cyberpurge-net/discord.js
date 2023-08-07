@@ -10,35 +10,35 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - package: '@discordjs/brokers'
+          - package: '@cyberpurge-net/brokers'
             folder: 'brokers'
-          - package: '@discordjs/builders'
+          - package: '@cyberpurge-net/builders'
             folder: 'builders'
-          - package: '@discordjs/collection'
+          - package: '@cyberpurge-net/collection'
             folder: 'collection'
-          - package: '@discordjs/core'
+          - package: '@cyberpurge-net/core'
             folder: 'core'
-          - package: '@discordjs/formatters'
+          - package: '@cyberpurge-net/formatters'
             folder: 'formatters'
           - package: 'discord.js'
             folder: 'discord.js'
-          - package: '@discordjs/next'
+          - package: '@cyberpurge-net/next'
             folder: 'next'
-          - package: '@discordjs/proxy'
+          - package: '@cyberpurge-net/proxy'
             folder: 'proxy'
-          - package: '@discordjs/rest'
+          - package: '@cyberpurge-net/rest'
             folder: 'rest'
-          - package: '@discordjs/util'
+          - package: '@cyberpurge-net/util'
             folder: 'util'
-          - package: '@discordjs/voice'
+          - package: '@cyberpurge-net/voice'
             folder: 'voice'
-          - package: '@discordjs/ws'
+          - package: '@cyberpurge-net/ws'
             folder: 'ws'
     runs-on: ubuntu-latest
     env:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
-    if: github.repository_owner == 'discordjs'
+    if: github.repository_owner == 'cyberpurge-net'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3

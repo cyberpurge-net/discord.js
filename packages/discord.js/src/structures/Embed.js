@@ -1,6 +1,6 @@
 'use strict';
 
-const { embedLength } = require('@discordjs/builders');
+const { embedLength } = require('@cyberpurge-net/builders');
 const isEqual = require('fast-deep-equal');
 
 /**

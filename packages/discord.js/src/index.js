@@ -22,7 +22,7 @@ exports.ApplicationFlagsBitField = require('./util/ApplicationFlagsBitField');
 exports.BaseManager = require('./managers/BaseManager');
 exports.BitField = require('./util/BitField');
 exports.ChannelFlagsBitField = require('./util/ChannelFlagsBitField');
-exports.Collection = require('@discordjs/collection').Collection;
+exports.Collection = require('@cyberpurge-net/collection').Collection;
 exports.Constants = require('./util/Constants');
 exports.Colors = require('./util/Colors');
 exports.DataResolver = require('./util/DataResolver');
@@ -211,8 +211,8 @@ exports.WelcomeScreen = require('./structures/WelcomeScreen');
 
 // External
 __exportStar(require('discord-api-types/v10'), exports);
-__exportStar(require('@discordjs/builders'), exports);
-__exportStar(require('@discordjs/formatters'), exports);
-__exportStar(require('@discordjs/rest'), exports);
-__exportStar(require('@discordjs/util'), exports);
-__exportStar(require('@discordjs/ws'), exports);
+__exportStar(require('@cyberpurge-net/builders'), exports);
+__exportStar(require('@cyberpurge-net/formatters'), exports);
+__exportStar(require('@cyberpurge-net/rest'), exports);
+__exportStar(require('@cyberpurge-net/util'), exports);
+__exportStar(require('@cyberpurge-net/ws'), exports);

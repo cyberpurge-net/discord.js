@@ -9,7 +9,7 @@ export default function Footer() {
 				<div className="flex flex-wrap place-content-center place-items-center gap-4">
 					<a
 						className="rounded outline-none focus:ring focus:ring-width-2 focus:ring-blurple"
-						href="https://vercel.com/?utm_source=discordjs&utm_campaign=oss"
+						href="https://vercel.com/?utm_source=cyberpurge-net&utm_campaign=oss"
 						rel="external noopener noreferrer"
 						target="_blank"
 						title="Vercel"
@@ -54,7 +54,7 @@ export default function Footer() {
 							</a>
 							<a
 								className="rounded outline-none focus:ring focus:ring-width-2 focus:ring-blurple"
-								href="https://github.com/discordjs/discord.js/discussions"
+								href="https://github.com/cyberpurge-net/discord.js/discussions"
 								rel="external noopener noreferrer"
 								target="_blank"
 							>
@@ -67,7 +67,7 @@ export default function Footer() {
 						<div className="flex flex-col gap-1">
 							<a
 								className="rounded outline-none focus:ring focus:ring-width-2 focus:ring-blurple"
-								href="https://github.com/discordjs/discord.js"
+								href="https://github.com/cyberpurge-net/discord.js"
 								rel="external noopener noreferrer"
 								target="_blank"
 							>

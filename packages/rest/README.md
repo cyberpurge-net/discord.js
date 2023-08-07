@@ -6,20 +6,20 @@
 	<br />
 	<p>
 		<a href="https://discord.gg/djs"><img src="https://img.shields.io/discord/222078108977594368?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
-		<a href="https://www.npmjs.com/package/@discordjs/rest"><img src="https://img.shields.io/npm/v/@discordjs/rest.svg?maxAge=3600" alt="npm version" /></a>
-		<a href="https://www.npmjs.com/package/@discordjs/rest"><img src="https://img.shields.io/npm/dt/@discordjs/rest.svg?maxAge=3600" alt="npm downloads" /></a>
-		<a href="https://github.com/discordjs/discord.js/actions"><img src="https://github.com/discordjs/discord.js/actions/workflows/test.yml/badge.svg" alt="Tests status" /></a>
-		<a href="https://codecov.io/gh/discordjs/discord.js" ><img src="https://codecov.io/gh/discordjs/discord.js/branch/main/graph/badge.svg?precision=2&flag=rest" alt="Code coverage" /></a>
+		<a href="https://www.npmjs.com/package/@cyberpurge-net/rest"><img src="https://img.shields.io/npm/v/@cyberpurge-net/rest.svg?maxAge=3600" alt="npm version" /></a>
+		<a href="https://www.npmjs.com/package/@cyberpurge-net/rest"><img src="https://img.shields.io/npm/dt/@cyberpurge-net/rest.svg?maxAge=3600" alt="npm downloads" /></a>
+		<a href="https://github.com/cyberpurge-net/discord.js/actions"><img src="https://github.com/cyberpurge-net/discord.js/actions/workflows/test.yml/badge.svg" alt="Tests status" /></a>
+		<a href="https://codecov.io/gh/cyberpurge-net/discord.js" ><img src="https://codecov.io/gh/cyberpurge-net/discord.js/branch/main/graph/badge.svg?precision=2&flag=rest" alt="Code coverage" /></a>
 	</p>
 	<p>
-		<a href="https://vercel.com/?utm_source=discordjs&utm_campaign=oss"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
-		<a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-workers.png" alt="Cloudflare Workers" height="44" /></a>
+		<a href="https://vercel.com/?utm_source=cyberpurge-net&utm_campaign=oss"><img src="https://raw.githubusercontent.com/cyberpurge-net/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
+		<a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/cyberpurge-net/discord.js/main/.github/powered-by-workers.png" alt="Cloudflare Workers" height="44" /></a>
 	</p>
 </div>
 
 ## About
 
-`@discordjs/rest` is a module that allows you to easily make REST requests to the Discord API.
+`@cyberpurge-net/rest` is a module that allows you to easily make REST requests to the Discord API.
 
 ## Installation
 
@@ -28,9 +28,9 @@
 Note: native fetch (not recommended) is unavailable in this node version, either use a newer node version or use the more performant `undiciRequest` strategy (default)
 
 ```sh
-npm install @discordjs/rest
-yarn add @discordjs/rest
-pnpm add @discordjs/rest
+npm install @cyberpurge-net/rest
+yarn add @cyberpurge-net/rest
+pnpm add @cyberpurge-net/rest
 ```
 
 ## Examples
@@ -38,15 +38,15 @@ pnpm add @discordjs/rest
 Install all required dependencies:
 
 ```sh
-npm install @discordjs/rest discord-api-types
-yarn add @discordjs/rest discord-api-types
-pnpm add @discordjs/rest discord-api-types
+npm install @cyberpurge-net/rest discord-api-types
+yarn add @cyberpurge-net/rest discord-api-types
+pnpm add @cyberpurge-net/rest discord-api-types
 ```
 
 Send a basic message:
 
 ```js
-import { REST } from '@discordjs/rest';
+import { REST } from '@cyberpurge-net/rest';
 import { Routes } from 'discord-api-types/v10';
 
 const rest = new REST({ version: '10' }).setToken(TOKEN);
@@ -65,7 +65,7 @@ try {
 Create a thread from an existing message to be archived after 60 minutes of inactivity:
 
 ```js
-import { REST } from '@discordjs/rest';
+import { REST } from '@cyberpurge-net/rest';
 import { Routes } from 'discord-api-types/v10';
 
 const rest = new REST({ version: '10' }).setToken(TOKEN);
@@ -85,7 +85,7 @@ try {
 Send a basic message in an edge environment:
 
 ```js
-import { REST } from '@discordjs/rest';
+import { REST } from '@cyberpurge-net/rest';
 import { Routes } from 'discord-api-types/v10';
 
 const rest = new REST({ version: '10', makeRequest: fetch }).setToken(TOKEN);
@@ -124,14 +124,14 @@ See [the contribution guide][contributing] if you'd like to submit a PR.
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [discord.js Server][discord].
 
 [website]: https://discord.js.org
-[website-source]: https://github.com/discordjs/discord.js/tree/main/apps/website
+[website-source]: https://github.com/cyberpurge-net/discord.js/tree/main/apps/website
 [documentation]: https://discord.js.org/docs/packages/rest/stable
-[guide]: https://discordjs.guide/
-[guide-source]: https://github.com/discordjs/guide
-[guide-update]: https://discordjs.guide/additional-info/changes-in-v14.html
+[guide]: https://cyberpurge-net.guide/
+[guide-source]: https://github.com/cyberpurge-net/guide
+[guide-update]: https://cyberpurge-net.guide/additional-info/changes-in-v14.html
 [discord]: https://discord.gg/djs
 [discord-api]: https://discord.gg/discord-api
-[source]: https://github.com/discordjs/discord.js/tree/main/packages/rest
-[npm]: https://www.npmjs.com/package/@discordjs/rest
+[source]: https://github.com/cyberpurge-net/discord.js/tree/main/packages/rest
+[npm]: https://www.npmjs.com/package/@cyberpurge-net/rest
 [related-libs]: https://discord.com/developers/docs/topics/community-resources#libraries
-[contributing]: https://github.com/discordjs/discord.js/blob/main/.github/CONTRIBUTING.md
+[contributing]: https://github.com/cyberpurge-net/discord.js/blob/main/.github/CONTRIBUTING.md

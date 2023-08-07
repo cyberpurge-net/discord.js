@@ -32,7 +32,7 @@ export const DefaultRPCRedisBrokerOptions = {
  * @example
  * ```ts
  * // caller.js
- * import { RPCRedisBroker } from '@discordjs/brokers';
+ * import { RPCRedisBroker } from '@cyberpurge-net/brokers';
  * import Redis from 'ioredis';
  *
  * const broker = new RPCRedisBroker({ redisClient: new Redis() });
@@ -41,7 +41,7 @@ export const DefaultRPCRedisBrokerOptions = {
  * await broker.destroy();
  *
  * // responder.js
- * import { RPCRedisBroker } from '@discordjs/brokers';
+ * import { RPCRedisBroker } from '@cyberpurge-net/brokers';
  * import Redis from 'ioredis';
  *
  * const broker = new RPCRedisBroker({ redisClient: new Redis() });

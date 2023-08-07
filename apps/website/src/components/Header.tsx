@@ -100,7 +100,7 @@ export default function Header() {
 							aria-label="GitHub"
 							as="a"
 							className="h-6 w-6 flex flex-row transform-gpu cursor-pointer select-none appearance-none place-items-center border-0 rounded rounded-full bg-transparent p-0 text-sm font-semibold leading-none no-underline outline-none active:translate-y-px focus:ring focus:ring-width-2 focus:ring-blurple"
-							href="https://github.com/discordjs/discord.js"
+							href="https://github.com/cyberpurge-net/discord.js"
 							rel="external noopener noreferrer"
 							target="_blank"
 						>

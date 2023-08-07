@@ -14,7 +14,7 @@ export default function VersionSelect() {
 	const packageName = pathname?.split('/').slice(3, 4)[0];
 	const branchName = pathname?.split('/').slice(4, 5)[0];
 
-	const { data: versions } = useSWR<string[]>(`https://docs.discordjs.dev/api/info?package=${packageName}`, fetcher);
+	const { data: versions } = useSWR<string[]>(`https://docs.cyberpurge-net.dev/api/info?package=${packageName}`, fetcher);
 	const versionMenu = useMenuState({ gutter: 8, sameWidth: true, fitViewport: true });
 
 	const versionMenuItems = useMemo(

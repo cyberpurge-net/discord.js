@@ -1,6 +1,6 @@
 {
 	"extends": "../../api-extractor.json",
 	"docModel": {
-		"projectFolderUrl": "https://github.com/discordjs/discord.js/tree/main/packages/next"
+		"projectFolderUrl": "https://github.com/cyberpurge-net/discord.js/tree/main/packages/next"
 	}
 }

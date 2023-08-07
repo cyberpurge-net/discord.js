@@ -1,4 +1,4 @@
-import { addPackageToModel, tryResolveSummaryText } from '@discordjs/scripts';
+import { addPackageToModel, tryResolveSummaryText } from '@cyberpurge-net/scripts';
 import type {
 	ApiClass,
 	ApiDeclaredItem,
@@ -83,7 +83,7 @@ export async function generateMetadata({ params }: { params: ItemRouteParams }) 
 	const member = await fetchHeadMember(params);
 	const name = `discord.js${member?.displayName ? ` | ${member.displayName}` : ''}`;
 	const ogTitle = `${params.package ?? 'discord.js'}${member?.displayName ? ` | ${member.displayName}` : ''}`;
-	const url = new URL('https://discordjs.dev/api/dynamic-open-graph.png');
+	const url = new URL('https://cyberpurge-net.dev/api/dynamic-open-graph.png');
 	const searchParams = resolveMemberSearchParams(params.package, member);
 	url.search = searchParams.toString();
 	const ogImage = url.toString();

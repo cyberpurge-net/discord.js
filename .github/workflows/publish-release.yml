@@ -9,7 +9,7 @@ jobs:
     env:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
-    if: github.repository_owner == 'discordjs'
+    if: github.repository_owner == 'cyberpurge-net'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -34,6 +34,6 @@ jobs:
 
       - name: Publish package
         run: |
-          yarn workspace ${{ steps.extract-tag.outputs.subpackage == 'true' && '@discordjs/' || '' }}${{ steps.extract-tag.outputs.package }} npm publish
+          yarn workspace ${{ steps.extract-tag.outputs.subpackage == 'true' && '@cyberpurge-net/' || '' }}${{ steps.extract-tag.outputs.package }} npm publish
         env:
           YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}

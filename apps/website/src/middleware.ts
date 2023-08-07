@@ -3,7 +3,7 @@ import { NextResponse, type NextRequest } from 'next/server';
 import { PACKAGES } from './util/constants';
 
 async function fetchLatestVersion(packageName: string) {
-	const res = await fetch(`https://docs.discordjs.dev/api/info?package=${packageName}`, { cache: 'no-store' });
+	const res = await fetch(`https://docs.cyberpurge-net.dev/api/info?package=${packageName}`, { cache: 'no-store' });
 	const data: string[] = await res.json();
 
 	return data.at(-2);
@@ -21,7 +21,7 @@ export default async function middleware(request: NextRequest) {
 	}
 
 	if (request.nextUrl.pathname.includes('discord.js')) {
-		return NextResponse.redirect('https://old.discordjs.dev/#/docs/discord.js');
+		return NextResponse.redirect('https://old.cyberpurge-net.dev/#/docs/discord.js');
 	}
 
 	if (PACKAGES.some((pkg) => request.nextUrl.pathname.includes(pkg))) {

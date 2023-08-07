@@ -16,7 +16,7 @@ export default function PackageSelect() {
 
 	const packageMenuItems = useMemo(
 		() => [
-			<a href="https://old.discordjs.dev/#/docs/discord.js" key="discord.js">
+			<a href="https://old.cyberpurge-net.dev/#/docs/discord.js" key="discord.js">
 				<MenuItem
 					className="my-0.5 rounded bg-white p-3 text-sm outline-none active:bg-light-800 dark:bg-dark-600 hover:bg-light-700 focus:ring focus:ring-width-2 focus:ring-blurple dark:active:bg-dark-400 dark:hover:bg-dark-500"
 					id="discord-js"

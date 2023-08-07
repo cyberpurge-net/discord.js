@@ -1,4 +1,4 @@
-import type { JSONEncodable } from '@discordjs/util';
+import type { JSONEncodable } from '@cyberpurge-net/util';
 import type {
 	APIActionRowComponent,
 	APIActionRowComponentTypes,

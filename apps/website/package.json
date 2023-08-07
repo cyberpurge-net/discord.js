@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/website",
+	"name": "@cyberpurge-net/website",
 	"version": "0.1.0",
 	"description": "Imagine a bot... the most popular way to build discord bots",
 	"private": true,
@@ -34,21 +34,21 @@
 		"client",
 		"node",
 		"discordapp",
-		"discordjs"
+		"cyberpurge-net"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "apps/website"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {
-		"@discordjs/api-extractor-utils": "workspace:^",
-		"@discordjs/scripts": "workspace:^",
-		"@discordjs/ui": "workspace:^",
+		"@cyberpurge-net/api-extractor-utils": "workspace:^",
+		"@cyberpurge-net/scripts": "workspace:^",
+		"@cyberpurge-net/ui": "workspace:^",
 		"@microsoft/api-extractor-model": "7.27.5",
 		"@microsoft/tsdoc": "0.14.2",
 		"@planetscale/database": "1.7.0",

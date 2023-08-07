@@ -1,6 +1,6 @@
 'use strict';
 
-const { Collection } = require('@discordjs/collection');
+const { Collection } = require('@cyberpurge-net/collection');
 const ApplicationCommand = require('./ApplicationCommand');
 const GuildAuditLogsEntry = require('./GuildAuditLogsEntry');
 const Integration = require('./Integration');

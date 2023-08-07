@@ -1,6 +1,6 @@
 'use client';
 
-import { Alert, Section, DiscordMessages, DiscordMessage, DiscordMessageEmbed } from '@discordjs/ui';
+import { Alert, Section, DiscordMessages, DiscordMessage, DiscordMessageEmbed } from '@cyberpurge-net/ui';
 import { useMDXComponent } from 'next-contentlayer/hooks';
 import { DiscordAPITypesLink } from './DiscordAPITypesLink';
 import { H1 } from './H1';

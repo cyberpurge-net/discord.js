@@ -3,26 +3,26 @@
 
 * @iCrawl
 
-/apps/guide/ @discordjs/website @discordjs/guide
-/apps/guide/src/content/ @discordjs/guide
-/apps/website/ @discordjs/website
+/apps/guide/ @cyberpurge-net/website @cyberpurge-net/guide
+/apps/guide/src/content/ @cyberpurge-net/guide
+/apps/website/ @cyberpurge-net/website
 
-/packages/actions/ @discordjs/actions
-/packages/api-extractor-utils/ @discordjs/api-extractor-utils
-/packages/brokers/ @discordjs/brokers
-/packages/builders/ @discordjs/builders
-/packages/collection/ @discordjs/collection
-/packages/core/ @discordjs/core
-/packages/create-discord-bot/ @discordjs/guide
-/packages/discord.js/ @discordjs/core
+/packages/actions/ @cyberpurge-net/actions
+/packages/api-extractor-utils/ @cyberpurge-net/api-extractor-utils
+/packages/brokers/ @cyberpurge-net/brokers
+/packages/builders/ @cyberpurge-net/builders
+/packages/collection/ @cyberpurge-net/collection
+/packages/core/ @cyberpurge-net/core
+/packages/create-discord-bot/ @cyberpurge-net/guide
+/packages/discord.js/ @cyberpurge-net/core
 /packages/docgen/ @iCrawl
-/packages/formatters/ @discordjs/formatters
-/packages/next/ @discordjs/core
-/packages/proxy/ @discordjs/proxy
-/packages/proxy-container/ @discordjs/proxy
-/packages/rest/ @discordjs/rest
-/packages/scripts/ @discordjs/scripts
-/packages/ui/ @discordjs/ui
-/packages/util/ @discordjs/util
-/packages/voice/ @discordjs/core
-/packages/ws/ @discordjs/ws
+/packages/formatters/ @cyberpurge-net/formatters
+/packages/next/ @cyberpurge-net/core
+/packages/proxy/ @cyberpurge-net/proxy
+/packages/proxy-container/ @cyberpurge-net/proxy
+/packages/rest/ @cyberpurge-net/rest
+/packages/scripts/ @cyberpurge-net/scripts
+/packages/ui/ @cyberpurge-net/ui
+/packages/util/ @cyberpurge-net/util
+/packages/voice/ @cyberpurge-net/core
+/packages/ws/ @cyberpurge-net/ws

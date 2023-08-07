@@ -8,13 +8,13 @@
 			"outputs": ["dist/**"],
 			"outputMode": "errors-only"
 		},
-		"@discordjs/ui#build": {
+		"@cyberpurge-net/ui#build": {
 			"dependsOn": ["^build"],
 			"inputs": ["src/**/*.ts", "vite.config.ts"],
 			"outputs": ["dist/**"],
 			"outputMode": "hash-only"
 		},
-		"@discordjs/guide#build:local": {
+		"@cyberpurge-net/guide#build:local": {
 			"dependsOn": ["^build"],
 			"inputs": [
 				".env.development",
@@ -32,7 +32,7 @@
 			"outputMode": "full",
 			"cache": false
 		},
-		"@discordjs/guide#build:prod": {
+		"@cyberpurge-net/guide#build:prod": {
 			"dependsOn": ["^build"],
 			"inputs": [
 				"public/**",
@@ -47,7 +47,7 @@
 			"outputs": [".next/**", "!.next/cache/**"],
 			"outputMode": "full"
 		},
-		"@discordjs/website#build:local": {
+		"@cyberpurge-net/website#build:local": {
 			"dependsOn": ["^build", "docs"],
 			"env": ["NEXT_PUBLIC_LOCAL_DEV", "DATABASE_URL", "EDGE_CONFIG"],
 			"inputs": [
@@ -66,7 +66,7 @@
 			"outputMode": "full",
 			"cache": false
 		},
-		"@discordjs/website#build:prod": {
+		"@cyberpurge-net/website#build:prod": {
 			"dependsOn": ["^build", "docs"],
 			"env": ["NEXT_PUBLIC_LOCAL_DEV", "DATABASE_URL", "EDGE_CONFIG"],
 			"inputs": [
@@ -88,7 +88,7 @@
 			"outputs": ["coverage/**"],
 			"outputMode": "new-only"
 		},
-		"@discordjs/voice#test": {
+		"@cyberpurge-net/voice#test": {
 			"dependsOn": ["^build"],
 			"inputs": [
 				"__tests_/**/*.ts",
@@ -158,12 +158,12 @@
 			"cache": false,
 			"persistent": true
 		},
-		"@discordjs/guide#dev": {
+		"@cyberpurge-net/guide#dev": {
 			"dependsOn": ["^build"],
 			"cache": false,
 			"persistent": true
 		},
-		"@discordjs/website#dev": {
+		"@cyberpurge-net/website#dev": {
 			"dependsOn": ["^build", "docs"],
 			"cache": false,
 			"persistent": true

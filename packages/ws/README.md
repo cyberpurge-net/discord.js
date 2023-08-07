@@ -6,29 +6,29 @@
 	<br />
 	<p>
 		<a href="https://discord.gg/djs"><img src="https://img.shields.io/discord/222078108977594368?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
-		<a href="https://www.npmjs.com/package/@discordjs/ws"><img src="https://img.shields.io/npm/v/@discordjs/ws.svg?maxAge=3600" alt="npm version" /></a>
-		<a href="https://www.npmjs.com/package/@discordjs/ws"><img src="https://img.shields.io/npm/dt/@discordjs/ws.svg?maxAge=3600" alt="npm downloads" /></a>
-		<a href="https://github.com/discordjs/discord.js/actions"><img src="https://github.com/discordjs/discord.js/actions/workflows/test.yml/badge.svg" alt="Build status" /></a>
-		<a href="https://codecov.io/gh/discordjs/discord.js" ><img src="https://codecov.io/gh/discordjs/discord.js/branch/main/graph/badge.svg?precision=2&flag=ws" alt="Code coverage" /></a>
+		<a href="https://www.npmjs.com/package/@cyberpurge-net/ws"><img src="https://img.shields.io/npm/v/@cyberpurge-net/ws.svg?maxAge=3600" alt="npm version" /></a>
+		<a href="https://www.npmjs.com/package/@cyberpurge-net/ws"><img src="https://img.shields.io/npm/dt/@cyberpurge-net/ws.svg?maxAge=3600" alt="npm downloads" /></a>
+		<a href="https://github.com/cyberpurge-net/discord.js/actions"><img src="https://github.com/cyberpurge-net/discord.js/actions/workflows/test.yml/badge.svg" alt="Build status" /></a>
+		<a href="https://codecov.io/gh/cyberpurge-net/discord.js" ><img src="https://codecov.io/gh/cyberpurge-net/discord.js/branch/main/graph/badge.svg?precision=2&flag=ws" alt="Code coverage" /></a>
 	</p>
 	<p>
-		<a href="https://vercel.com/?utm_source=discordjs&utm_campaign=oss"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
-		<a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-workers.png" alt="Cloudflare Workers" height="44" /></a>
+		<a href="https://vercel.com/?utm_source=cyberpurge-net&utm_campaign=oss"><img src="https://raw.githubusercontent.com/cyberpurge-net/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
+		<a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/cyberpurge-net/discord.js/main/.github/powered-by-workers.png" alt="Cloudflare Workers" height="44" /></a>
 	</p>
 </div>
 
 ## About
 
-`@discordjs/ws` is a powerful wrapper around Discord's gateway.
+`@cyberpurge-net/ws` is a powerful wrapper around Discord's gateway.
 
 ## Installation
 
 **Node.js 16.9.0 or newer is required.**
 
 ```sh
-npm install @discordjs/ws
-yarn add @discordjs/ws
-pnpm add @discordjs/ws
+npm install @cyberpurge-net/ws
+yarn add @cyberpurge-net/ws
+pnpm add @cyberpurge-net/ws
 ```
 
 ### Optional packages
@@ -40,8 +40,8 @@ pnpm add @discordjs/ws
 ## Example usage
 
 ```ts
-import { WebSocketManager, WebSocketShardEvents, CompressionMethod } from '@discordjs/ws';
-import { REST } from '@discordjs/rest';
+import { WebSocketManager, WebSocketShardEvents, CompressionMethod } from '@cyberpurge-net/ws';
+import { REST } from '@cyberpurge-net/rest';
 
 const rest = new REST().setToken(process.env.DISCORD_TOKEN);
 // This example will spawn Discord's recommended shard count, all under the current process.
@@ -101,8 +101,8 @@ const manager = new WebSocketManager({
 You can also have the shards spawn in worker threads:
 
 ```ts
-import { WebSocketManager, WorkerShardingStrategy } from '@discordjs/ws';
-import { REST } from '@discordjs/rest';
+import { WebSocketManager, WorkerShardingStrategy } from '@cyberpurge-net/ws';
+import { REST } from '@cyberpurge-net/rest';
 
 const rest = new REST().setToken(process.env.DISCORD_TOKEN);
 const manager = new WebSocketManager({
@@ -120,8 +120,8 @@ const manager = new WebSocketManager({
 **Note**: By default, this will cause the workers to effectively only be responsible for the WebSocket connection, they simply pass up all the events back to the main process for the manager to emit. If you want to have the workers handle events as well, you can pass in a `workerPath` option to the `WorkerShardingStrategy` constructor:
 
 ```ts
-import { WebSocketManager, WorkerShardingStrategy } from '@discordjs/ws';
-import { REST } from '@discordjs/rest';
+import { WebSocketManager, WorkerShardingStrategy } from '@cyberpurge-net/ws';
+import { REST } from '@cyberpurge-net/rest';
 
 const rest = new REST().setToken(process.env.DISCORD_TOKEN);
 const manager = new WebSocketManager({
@@ -139,7 +139,7 @@ const manager = new WebSocketManager({
 And your `worker.ts` file:
 
 ```ts
-import { WorkerBootstrapper, WebSocketShardEvents } from '@discordjs/ws';
+import { WorkerBootstrapper, WebSocketShardEvents } from '@cyberpurge-net/ws';
 
 const bootstrapper = new WorkerBootstrapper();
 void bootstrapper.bootstrap({
@@ -183,14 +183,14 @@ See [the contribution guide][contributing] if you'd like to submit a PR.
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [discord.js Server][discord].
 
 [website]: https://discord.js.org
-[website-source]: https://github.com/discordjs/discord.js/tree/main/apps/website
+[website-source]: https://github.com/cyberpurge-net/discord.js/tree/main/apps/website
 [documentation]: https://discord.js.org/docs/packages/ws/stable
-[guide]: https://discordjs.guide/
-[guide-source]: https://github.com/discordjs/guide
-[guide-update]: https://discordjs.guide/additional-info/changes-in-v14.html
+[guide]: https://cyberpurge-net.guide/
+[guide-source]: https://github.com/cyberpurge-net/guide
+[guide-update]: https://cyberpurge-net.guide/additional-info/changes-in-v14.html
 [discord]: https://discord.gg/djs
 [discord-api]: https://discord.gg/discord-api
-[source]: https://github.com/discordjs/discord.js/tree/main/packages/ws
-[npm]: https://www.npmjs.com/package/@discordjs/ws
+[source]: https://github.com/cyberpurge-net/discord.js/tree/main/packages/ws
+[npm]: https://www.npmjs.com/package/@cyberpurge-net/ws
 [related-libs]: https://discord.com/developers/docs/topics/community-resources#libraries
-[contributing]: https://github.com/discordjs/discord.js/blob/main/.github/CONTRIBUTING.md
+[contributing]: https://github.com/cyberpurge-net/discord.js/blob/main/.github/CONTRIBUTING.md

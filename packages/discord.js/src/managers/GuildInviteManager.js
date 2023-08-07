@@ -1,6 +1,6 @@
 'use strict';
 
-const { Collection } = require('@discordjs/collection');
+const { Collection } = require('@cyberpurge-net/collection');
 const { Routes } = require('discord-api-types/v10');
 const CachedManager = require('./CachedManager');
 const { DiscordjsError, ErrorCodes } = require('../errors');

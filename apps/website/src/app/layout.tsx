@@ -59,7 +59,7 @@ export const metadata: Metadata = {
 		type: 'website',
 		title: 'discord.js',
 		description: DESCRIPTION,
-		images: 'https://discordjs.dev/api/open-graph.png',
+		images: 'https://cyberpurge-net.dev/api/open-graph.png',
 	},
 
 	twitter: {

@@ -24,7 +24,7 @@ export default withBundleAnalyzer({
 			},
 			{
 				source: '/guide/:path*',
-				destination: 'https://next.discordjs.guide/guide/:path*',
+				destination: 'https://next.cyberpurge-net.guide/guide/:path*',
 				permanent: true,
 			},
 		];

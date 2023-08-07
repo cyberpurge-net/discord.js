@@ -1,4 +1,4 @@
-import { addPackageToModel } from '@discordjs/scripts';
+import { addPackageToModel } from '@cyberpurge-net/scripts';
 import type { ApiFunction, ApiItem } from '@microsoft/api-extractor-model';
 import { ApiModel } from '@microsoft/api-extractor-model';
 import dynamic from 'next/dynamic';

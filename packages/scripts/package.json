@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/scripts",
+	"name": "@cyberpurge-net/scripts",
 	"version": "0.1.0",
 	"description": "A set of scripts that we use for our workflows",
 	"private": true,
@@ -32,19 +32,19 @@
 		"bot",
 		"client",
 		"node",
-		"discordjs"
+		"cyberpurge-net"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/scripts"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {
-		"@discordjs/api-extractor-utils": "workspace:^",
+		"@cyberpurge-net/api-extractor-utils": "workspace:^",
 		"@microsoft/api-extractor-model": "7.27.5",
 		"@microsoft/tsdoc": "0.14.2",
 		"@microsoft/tsdoc-config": "0.16.2",

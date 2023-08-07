@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/brokers",
+	"name": "@cyberpurge-net/brokers",
 	"version": "0.2.1",
 	"description": "Powerful set of message brokers",
 	"scripts": {
@@ -46,15 +46,15 @@
 		"brokers",
 		"redis",
 		"discordapp",
-		"discordjs"
+		"cyberpurge-net"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/brokers"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {

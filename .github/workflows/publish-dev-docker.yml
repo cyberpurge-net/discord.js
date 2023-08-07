@@ -7,7 +7,7 @@ jobs:
   docker-publish:
     name: Docker publish
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'discordjs'
+    if: github.repository_owner == 'cyberpurge-net'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -30,4 +30,4 @@ jobs:
         run: echo ${{ secrets.DOCKER_ACCESS_TOKEN }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
 
       - name: Build & push docker image
-        run: yarn docker build --buildkit @discordjs/proxy-container -t discordjs/proxy:latest --push
+        run: yarn docker build --buildkit @cyberpurge-net/proxy-container -t cyberpurge-net/proxy:latest --push

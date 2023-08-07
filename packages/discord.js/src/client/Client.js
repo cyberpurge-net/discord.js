@@ -1,8 +1,8 @@
 'use strict';
 
 const process = require('node:process');
-const { Collection } = require('@discordjs/collection');
-const { makeURLSearchParams } = require('@discordjs/rest');
+const { Collection } = require('@cyberpurge-net/collection');
+const { makeURLSearchParams } = require('@cyberpurge-net/rest');
 const { OAuth2Scopes, Routes } = require('discord-api-types/v10');
 const BaseClient = require('./BaseClient');
 const ActionsManager = require('./actions/ActionsManager');

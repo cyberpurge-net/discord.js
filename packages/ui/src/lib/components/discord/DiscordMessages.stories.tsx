@@ -16,7 +16,7 @@ export const Default = {
 		<DiscordMessages {...args}>
 			<DiscordMessage
 				author={{
-					avatar: '/assets/discordjs.png',
+					avatar: '/assets/cyberpurge-net.png',
 					bot: true,
 					time: 'Today at 21:00',
 					username: 'Guide Bot',
@@ -26,14 +26,14 @@ export const Default = {
 			</DiscordMessage>
 			<DiscordMessage
 				author={{
-					avatar: '/assets/discordjs.png',
+					avatar: '/assets/cyberpurge-net.png',
 					bot: true,
 					time: 'Today at 21:01',
 					username: 'Guide Bot',
 				}}
 				reply={{
 					author: {
-						avatar: '/assets/discordjs.png',
+						avatar: '/assets/cyberpurge-net.png',
 						bot: true,
 						username: 'Guide Bot',
 					},
@@ -45,7 +45,7 @@ export const Default = {
 			</DiscordMessage>
 			<DiscordMessage
 				author={{
-					avatar: '/assets/discordjs.png',
+					avatar: '/assets/cyberpurge-net.png',
 					bot: true,
 					time: 'Today at 21:02',
 					username: 'Guide Bot',
@@ -55,13 +55,13 @@ export const Default = {
 				<>
 					<DiscordMessageEmbed
 						author={{
-							avatar: '/assets/discordjs.png',
+							avatar: '/assets/cyberpurge-net.png',
 							username: 'Guide Bot',
 							url: 'https://discord.js.org',
 						}}
 						footer={{
 							content: 'Sometimes, titles just have to be.',
-							icon: '/assets/discordjs.png',
+							icon: '/assets/cyberpurge-net.png',
 							timestamp: 'Today at 21:02',
 						}}
 						title={{ title: 'An amazing title', url: 'https://discord.js.org' }}
@@ -70,18 +70,18 @@ export const Default = {
 					</DiscordMessageEmbed>
 					<DiscordMessageEmbed
 						author={{
-							avatar: '/assets/discordjs.png',
+							avatar: '/assets/cyberpurge-net.png',
 							username: 'Guide Bot',
 						}}
 						footer={{ content: "When one amazing title just wasn't enough." }}
-						thumbnail={{ alt: 'discord.js logo', image: '/assets/discordjs.png' }}
+						thumbnail={{ alt: 'discord.js logo', image: '/assets/cyberpurge-net.png' }}
 						title={{ title: 'Another amazing title' }}
 					>
 						Multiple embeds!
 					</DiscordMessageEmbed>
 					<DiscordMessageEmbed
 						author={{
-							avatar: '/assets/discordjs.png',
+							avatar: '/assets/cyberpurge-net.png',
 							username: 'Guide Bot',
 						}}
 						fields={[
@@ -108,25 +108,25 @@ export const Default = {
 						footer={{ timestamp: 'Today at 21:02' }}
 						image={{
 							alt: 'discord.js logo',
-							url: '/assets/discordjs.png',
+							url: '/assets/cyberpurge-net.png',
 							width: 300,
 							height: 300,
 						}}
-						thumbnail={{ alt: 'discord.js logo', image: '/assets/discordjs.png' }}
+						thumbnail={{ alt: 'discord.js logo', image: '/assets/cyberpurge-net.png' }}
 						title={{ title: 'Fields are also supported!' }}
 					/>
 				</>
 			</DiscordMessage>
 			<DiscordMessage
 				author={{
-					avatar: '/assets/discordjs.png',
+					avatar: '/assets/cyberpurge-net.png',
 					bot: true,
 					time: 'Today at 21:03',
 					username: 'Guide Bot',
 				}}
 				interaction={{
 					author: {
-						avatar: '/assets/discordjs.png',
+						avatar: '/assets/cyberpurge-net.png',
 						bot: true,
 						username: 'Guide Bot',
 					},
@@ -137,7 +137,7 @@ export const Default = {
 			</DiscordMessage>
 			<DiscordMessage
 				author={{
-					avatar: '/assets/discordjs.png',
+					avatar: '/assets/cyberpurge-net.png',
 					bot: true,
 					verified: true,
 					color: 'text-red-500',

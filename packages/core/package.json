@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/core",
+	"name": "@cyberpurge-net/core",
 	"version": "1.0.0",
 	"description": "A thinly abstracted wrapper around the rest API, and gateway.",
 	"scripts": {
@@ -46,17 +46,17 @@
 	"keywords": [],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/core"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {
-		"@discordjs/rest": "workspace:^",
-		"@discordjs/util": "workspace:^",
-		"@discordjs/ws": "workspace:^",
+		"@cyberpurge-net/rest": "workspace:^",
+		"@cyberpurge-net/util": "workspace:^",
+		"@cyberpurge-net/ws": "workspace:^",
 		"@sapphire/snowflake": "^3.5.1",
 		"@vladfrangu/async_event_emitter": "^2.2.2",
 		"discord-api-types": "^0.37.50"

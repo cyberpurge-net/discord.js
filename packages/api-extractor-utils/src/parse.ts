@@ -18,7 +18,7 @@ import type { DocBlockJSON } from './tsdoc/CommentBlock.js';
 import { createCommentNode } from './tsdoc/index.js';
 
 export function findPackage(model: ApiModel, name: string): ApiPackage | undefined {
-	return (model.findMembersByName(name)[0] ?? model.findMembersByName(`@discordjs/${name}`)[0]) as
+	return (model.findMembersByName(name)[0] ?? model.findMembersByName(`@cyberpurge-net/${name}`)[0]) as
 		| ApiPackage
 		| undefined;
 }
@@ -55,7 +55,7 @@ export function generatePath(items: readonly ApiItem[], version: string) {
 	}
 
 	// eslint-disable-next-line prefer-named-capture-group, unicorn/no-unsafe-regex
-	return path.replace(/@discordjs\/(.*)\/(.*)?/, `$1/${version}/$2`);
+	return path.replace(/@cyberpurge-net\/(.*)\/(.*)?/, `$1/${version}/$2`);
 }
 
 export function resolveDocComment(item: ApiDeclaredItem) {

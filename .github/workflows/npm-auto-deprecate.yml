@@ -7,7 +7,7 @@ jobs:
   npm-auto-deprecate:
     name: npm auto deprecate
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'discordjs'
+    if: github.repository_owner == 'cyberpurge-net'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -21,6 +21,6 @@ jobs:
         uses: ./packages/actions/src/yarnCache
 
       - name: Deprecate versions
-        run: 'yarn npm-deprecate --name "*dev*" --package @discordjs/brokers @discordjs/builders @discordjs/collection @discordjs/core @discordjs/formatters discord.js @discordjs/next @discordjs/proxy @discordjs/rest @discordjs/util @discordjs/voice @discordjs/ws'
+        run: 'yarn npm-deprecate --name "*dev*" --package @cyberpurge-net/brokers @cyberpurge-net/builders @cyberpurge-net/collection @cyberpurge-net/core @cyberpurge-net/formatters discord.js @cyberpurge-net/next @cyberpurge-net/proxy @cyberpurge-net/rest @cyberpurge-net/util @cyberpurge-net/voice @cyberpurge-net/ws'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}

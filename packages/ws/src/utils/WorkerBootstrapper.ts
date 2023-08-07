@@ -1,6 +1,6 @@
 import { isMainThread, parentPort, workerData } from 'node:worker_threads';
-import { Collection } from '@discordjs/collection';
-import type { Awaitable } from '@discordjs/util';
+import { Collection } from '@cyberpurge-net/collection';
+import type { Awaitable } from '@cyberpurge-net/util';
 import { WorkerContextFetchingStrategy } from '../strategies/context/WorkerContextFetchingStrategy.js';
 import {
 	WorkerReceivePayloadOp,

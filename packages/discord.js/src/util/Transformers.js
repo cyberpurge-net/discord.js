@@ -1,6 +1,6 @@
 'use strict';
 
-const { isJSONEncodable } = require('@discordjs/util');
+const { isJSONEncodable } = require('@cyberpurge-net/util');
 const snakeCase = require('lodash.snakecase');
 
 /**

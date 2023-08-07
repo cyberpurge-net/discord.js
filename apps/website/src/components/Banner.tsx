@@ -6,8 +6,8 @@ export function Banner({ className, ...props }: HTMLAttributes<HTMLDivElement>) 
 			You are reading the documentation for the <strong>next</strong> version of discord.js. Documentation for v13/v14+
 			has been moved to{' '}
 			<strong>
-				<a href="https://old.discordjs.dev/#/docs" rel="external noopener noreferrer" target="_blank">
-					old.discordjs.dev
+				<a href="https://old.cyberpurge-net.dev/#/docs" rel="external noopener noreferrer" target="_blank">
+					old.cyberpurge-net.dev
 				</a>
 			</strong>
 		</div>

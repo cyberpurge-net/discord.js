@@ -1,7 +1,7 @@
 'use strict';
 
-const { EmbedBuilder: BuildersEmbed, embedLength } = require('@discordjs/builders');
-const { isJSONEncodable } = require('@discordjs/util');
+const { EmbedBuilder: BuildersEmbed, embedLength } = require('@cyberpurge-net/builders');
+const { isJSONEncodable } = require('@cyberpurge-net/util');
 const { toSnakeCase } = require('../util/Transformers');
 const { resolveColor } = require('../util/Util');
 

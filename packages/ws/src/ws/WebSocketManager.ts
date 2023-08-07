@@ -1,5 +1,5 @@
-import type { REST } from '@discordjs/rest';
-import { range, type Awaitable } from '@discordjs/util';
+import type { REST } from '@cyberpurge-net/rest';
+import { range, type Awaitable } from '@cyberpurge-net/util';
 import { AsyncEventEmitter } from '@vladfrangu/async_event_emitter';
 import {
 	Routes,

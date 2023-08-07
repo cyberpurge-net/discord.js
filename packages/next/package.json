@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/next",
+	"name": "@cyberpurge-net/next",
 	"version": "0.1.0",
 	"description": "A powerful TypeScript library for interacting with the Discord API",
 	"scripts": {
@@ -45,21 +45,21 @@
 	"keywords": [],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/next"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {
-		"@discordjs/builders": "workspace:^",
-		"@discordjs/collection": "workspace:^",
-		"@discordjs/core": "workspace:^",
-		"@discordjs/formatters": "workspace:^",
-		"@discordjs/rest": "workspace:^",
-		"@discordjs/util": "workspace:^",
-		"@discordjs/ws": "workspace:^",
+		"@cyberpurge-net/builders": "workspace:^",
+		"@cyberpurge-net/collection": "workspace:^",
+		"@cyberpurge-net/core": "workspace:^",
+		"@cyberpurge-net/formatters": "workspace:^",
+		"@cyberpurge-net/rest": "workspace:^",
+		"@cyberpurge-net/util": "workspace:^",
+		"@cyberpurge-net/ws": "workspace:^",
 		"discord-api-types": "^0.37.50"
 	},
 	"devDependencies": {

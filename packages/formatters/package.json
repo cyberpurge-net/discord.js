@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/formatters",
+	"name": "@cyberpurge-net/formatters",
 	"version": "0.3.1",
 	"description": "A set of functions to format strings for Discord.",
 	"scripts": {
@@ -38,11 +38,11 @@
 	"keywords": [],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/formatters"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {

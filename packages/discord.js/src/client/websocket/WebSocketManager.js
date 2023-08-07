@@ -3,13 +3,13 @@
 const EventEmitter = require('node:events');
 const process = require('node:process');
 const { setImmediate } = require('node:timers');
-const { Collection } = require('@discordjs/collection');
+const { Collection } = require('@cyberpurge-net/collection');
 const {
   WebSocketManager: WSWebSocketManager,
   WebSocketShardEvents: WSWebSocketShardEvents,
   CompressionMethod,
   CloseCodes,
-} = require('@discordjs/ws');
+} = require('@cyberpurge-net/ws');
 const { GatewayCloseCodes, GatewayDispatchEvents } = require('discord-api-types/v10');
 const WebSocketShard = require('./WebSocketShard');
 const PacketHandlers = require('./handlers');
@@ -98,7 +98,7 @@ class WebSocketManager extends EventEmitter {
     this.destroyed = false;
 
     /**
-     * The internal WebSocketManager from `@discordjs/ws`.
+     * The internal WebSocketManager from `@cyberpurge-net/ws`.
      * @type {WSWebSocketManager}
      * @private
      */
@@ -227,7 +227,7 @@ class WebSocketManager extends EventEmitter {
   }
 
   /**
-   * Attaches event handlers to the internal WebSocketShardManager from `@discordjs/ws`.
+   * Attaches event handlers to the internal WebSocketShardManager from `@cyberpurge-net/ws`.
    * @private
    */
   attachEvents() {

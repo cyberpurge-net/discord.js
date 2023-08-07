@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/{name}",
+	"name": "@cyberpurge-net/{name}",
 	"version": "0.1.0",
 	"description": "",
 	"scripts": {
@@ -36,11 +36,11 @@
 	"keywords": [],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/{name}"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {},

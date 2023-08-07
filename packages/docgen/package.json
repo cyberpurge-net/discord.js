@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/docgen",
+	"name": "@cyberpurge-net/docgen",
 	"version": "0.12.1",
 	"description": "The docs.json generator for discord.js and its related projects",
 	"scripts": {
@@ -29,15 +29,15 @@
 		"docgen",
 		"docsgen",
 		"node",
-		"discordjs"
+		"cyberpurge-net"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/docgen"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {

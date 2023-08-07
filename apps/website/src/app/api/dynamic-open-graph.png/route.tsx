@@ -103,7 +103,7 @@ export async function GET(request: NextRequest) {
 				tw="flex flex-row bg-[#181818] h-full w-full p-24"
 			>
 				<div tw="flex flex-col mx-auto h-full text-white">
-					<div tw="flex flex-row text-4xl text-gray-400">@discordjs/{pkg}</div>
+					<div tw="flex flex-row text-4xl text-gray-400">@cyberpurge-net/{pkg}</div>
 					<div tw="flex flex-col justify-between h-full w-full pt-14">
 						<div tw="flex flex-row items-center max-w-full">
 							<span tw="mr-6">{resolveIcon(kind as keyof typeof ApiItemKind)}</span>

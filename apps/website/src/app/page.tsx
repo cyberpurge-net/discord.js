@@ -21,7 +21,7 @@ export default function Page() {
 						</h1>
 						<p className="my-6 leading-normal text-neutral-700 dark:text-neutral-300">{DESCRIPTION}</p>
 						<div className="flex flex-wrap place-content-center gap-4 md:flex-row">
-							<a className={buttonVariants()} href="https://old.discordjs.dev/#/docs" rel="noopener noreferrer">
+							<a className={buttonVariants()} href="https://old.cyberpurge-net.dev/#/docs" rel="noopener noreferrer">
 								Docs
 							</a>
 							<Link className={buttonVariants()} href="/docs">
@@ -29,7 +29,7 @@ export default function Page() {
 							</Link>
 							<a
 								className={buttonVariants({ variant: 'secondary' })}
-								href="https://discordjs.guide"
+								href="https://cyberpurge-net.guide"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -37,7 +37,7 @@ export default function Page() {
 							</a>
 							<a
 								className={buttonVariants({ variant: 'secondary' })}
-								href="https://github.com/discordjs/discord.js"
+								href="https://github.com/cyberpurge-net/discord.js"
 								rel="external noopener noreferrer"
 								target="_blank"
 							>
@@ -50,7 +50,7 @@ export default function Page() {
 				<div className="flex flex-col gap-4 md:flex-row">
 					<a
 						className="rounded outline-none focus:ring focus:ring-width-2 focus:ring-blurple"
-						href="https://vercel.com/?utm_source=discordjs&utm_campaign=oss"
+						href="https://vercel.com/?utm_source=cyberpurge-net&utm_campaign=oss"
 						rel="external noopener noreferrer"
 						target="_blank"
 						title="Vercel"

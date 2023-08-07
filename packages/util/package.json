@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/util",
+	"name": "@cyberpurge-net/util",
 	"version": "1.0.0",
 	"description": "Utilities shared across Discord.js packages",
 	"scripts": {
@@ -41,15 +41,15 @@
 		"bot",
 		"client",
 		"node",
-		"discordjs"
+		"cyberpurge-net"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/util"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"devDependencies": {

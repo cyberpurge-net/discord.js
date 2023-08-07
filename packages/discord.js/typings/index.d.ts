@@ -36,16 +36,16 @@ import {
   ComponentBuilder,
   type RestOrArray,
   ApplicationCommandOptionAllowedChannelTypes,
-} from '@discordjs/builders';
-import { Awaitable, JSONEncodable } from '@discordjs/util';
-import { Collection } from '@discordjs/collection';
-import { BaseImageURLOptions, ImageURLOptions, RawFile, REST, RESTOptions } from '@discordjs/rest';
+} from '@cyberpurge-net/builders';
+import { Awaitable, JSONEncodable } from '@cyberpurge-net/util';
+import { Collection } from '@cyberpurge-net/collection';
+import { BaseImageURLOptions, ImageURLOptions, RawFile, REST, RESTOptions } from '@cyberpurge-net/rest';
 import {
   WebSocketManager as WSWebSocketManager,
   IShardingStrategy,
   IIdentifyThrottler,
   SessionInfo,
-} from '@discordjs/ws';
+} from '@cyberpurge-net/ws';
 import {
   APIActionRowComponent,
   APIApplicationCommandInteractionData,
@@ -1063,7 +1063,7 @@ export class ClientVoiceManager {
   public adapters: Map<Snowflake, InternalDiscordGatewayAdapterLibraryMethods>;
 }
 
-export { Collection } from '@discordjs/collection';
+export { Collection } from '@cyberpurge-net/collection';
 
 export interface CollectorEventTypes<K, V, F extends unknown[] = []> {
   collect: [V, ...F];
@@ -6440,7 +6440,7 @@ export type Serialized<T> = T extends symbol | bigint | (() => any)
 //#region Voice
 
 /**
- * @internal Use `DiscordGatewayAdapterLibraryMethods` from `@discordjs/voice` instead.
+ * @internal Use `DiscordGatewayAdapterLibraryMethods` from `@cyberpurge-net/voice` instead.
  */
 export interface InternalDiscordGatewayAdapterLibraryMethods {
   onVoiceServerUpdate(data: GatewayVoiceServerUpdateDispatchData): void;
@@ -6449,7 +6449,7 @@ export interface InternalDiscordGatewayAdapterLibraryMethods {
 }
 
 /**
- * @internal Use `DiscordGatewayAdapterImplementerMethods` from `@discordjs/voice` instead.
+ * @internal Use `DiscordGatewayAdapterImplementerMethods` from `@cyberpurge-net/voice` instead.
  */
 export interface InternalDiscordGatewayAdapterImplementerMethods {
   sendPayload(payload: unknown): boolean;
@@ -6457,7 +6457,7 @@ export interface InternalDiscordGatewayAdapterImplementerMethods {
 }
 
 /**
- * @internal Use `DiscordGatewayAdapterCreator` from `@discordjs/voice` instead.
+ * @internal Use `DiscordGatewayAdapterCreator` from `@cyberpurge-net/voice` instead.
  */
 export type InternalDiscordGatewayAdapterCreator = (
   methods: InternalDiscordGatewayAdapterLibraryMethods,
@@ -6467,8 +6467,8 @@ export type InternalDiscordGatewayAdapterCreator = (
 
 // External
 export * from 'discord-api-types/v10';
-export * from '@discordjs/builders';
-export * from '@discordjs/formatters';
-export * from '@discordjs/rest';
-export * from '@discordjs/util';
-export * from '@discordjs/ws';
+export * from '@cyberpurge-net/builders';
+export * from '@cyberpurge-net/formatters';
+export * from '@cyberpurge-net/rest';
+export * from '@cyberpurge-net/util';
+export * from '@cyberpurge-net/ws';

@@ -2,7 +2,7 @@
 
 const EventEmitter = require('node:events');
 const { setTimeout, clearTimeout } = require('node:timers');
-const { Collection } = require('@discordjs/collection');
+const { Collection } = require('@cyberpurge-net/collection');
 const { DiscordjsTypeError, ErrorCodes } = require('../../errors');
 const { flatten } = require('../../util/Util');
 

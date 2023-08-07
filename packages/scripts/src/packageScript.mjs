@@ -9,6 +9,6 @@ program.parse();
 
 const [packageName, description] = program.args;
 
-console.log(`Creating package @discordjs/${packageName}...`);
+console.log(`Creating package @cyberpurge-net/${packageName}...`);
 await createPackage(packageName, description);
 console.log('Done!');

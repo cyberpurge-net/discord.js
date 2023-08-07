@@ -1,7 +1,7 @@
 'use strict';
 
-const { Collection } = require('@discordjs/collection');
-const { makeURLSearchParams } = require('@discordjs/rest');
+const { Collection } = require('@cyberpurge-net/collection');
+const { makeURLSearchParams } = require('@cyberpurge-net/rest');
 const { ChannelType, GuildPremiumTier, Routes, GuildFeature } = require('discord-api-types/v10');
 const AnonymousGuild = require('./AnonymousGuild');
 const GuildAuditLogs = require('./GuildAuditLogs');
@@ -1314,7 +1314,7 @@ class Guild extends AnonymousGuild {
   }
 
   /**
-   * The voice state adapter for this guild that can be used with @discordjs/voice to play audio in voice
+   * The voice state adapter for this guild that can be used with @cyberpurge-net/voice to play audio in voice
    * and stage channels.
    * @type {Function}
    * @readonly

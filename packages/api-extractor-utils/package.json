@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/api-extractor-utils",
+	"name": "@cyberpurge-net/api-extractor-utils",
 	"version": "1.0.0",
 	"description": "Utilities for api-extractor",
 	"private": true,
@@ -24,11 +24,11 @@
 	"license": "Apache-2.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/api-extractor-utils"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {

@@ -1,4 +1,4 @@
-import { addPackageToModel } from '@discordjs/scripts';
+import { addPackageToModel } from '@cyberpurge-net/scripts';
 import { ApiModel, ApiFunction } from '@microsoft/api-extractor-model';
 import { notFound } from 'next/navigation';
 import { OVERLOAD_SEPARATOR, PACKAGES } from './constants';

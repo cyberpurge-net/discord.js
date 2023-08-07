@@ -1,5 +1,5 @@
-import type { Awaitable } from '@discordjs/util';
-import type { ManagerShardEventsMap, WebSocketShardEvents } from '@discordjs/ws';
+import type { Awaitable } from '@cyberpurge-net/util';
+import type { ManagerShardEventsMap, WebSocketShardEvents } from '@cyberpurge-net/ws';
 import type { GatewaySendPayload } from 'discord-api-types/v10';
 
 export interface Gateway {

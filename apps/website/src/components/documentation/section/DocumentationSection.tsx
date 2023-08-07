@@ -1,4 +1,4 @@
-import type { SectionOptions } from '@discordjs/ui';
+import type { SectionOptions } from '@cyberpurge-net/ui';
 import type { PropsWithChildren } from 'react';
 import { Section } from '../../Section';
 

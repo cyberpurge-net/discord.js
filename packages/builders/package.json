@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/builders",
+	"name": "@cyberpurge-net/builders",
 	"version": "1.6.4",
 	"description": "A set of builders that you can use when creating your bot",
 	"scripts": {
@@ -44,20 +44,20 @@
 		"client",
 		"node",
 		"discordapp",
-		"discordjs"
+		"cyberpurge-net"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/builders"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {
-		"@discordjs/formatters": "workspace:^",
-		"@discordjs/util": "workspace:^",
+		"@cyberpurge-net/formatters": "workspace:^",
+		"@cyberpurge-net/util": "workspace:^",
 		"@sapphire/shapeshift": "^3.9.2",
 		"discord-api-types": "^0.37.50",
 		"fast-deep-equal": "^3.1.3",

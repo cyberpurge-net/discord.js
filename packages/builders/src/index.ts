@@ -1,7 +1,7 @@
 export * as EmbedAssertions from './messages/embed/Assertions.js';
 export * from './messages/embed/Embed.js';
 // TODO: Consider removing this dep in the next major version
-export * from '@discordjs/formatters';
+export * from '@cyberpurge-net/formatters';
 
 export * as ComponentAssertions from './components/Assertions.js';
 export * from './components/ActionRow.js';
@@ -61,7 +61,7 @@ export * from './util/normalizeArray.js';
 export * from './util/validation.js';
 
 /**
- * The {@link https://github.com/discordjs/discord.js/blob/main/packages/builders#readme | @discordjs/builders} version
+ * The {@link https://github.com/cyberpurge-net/discord.js/blob/main/packages/builders#readme | @cyberpurge-net/builders} version
  * that you are currently using.
  *
  * @privateRemarks This needs to explicitly be `string` so it is not typed as a "const string" that gets injected by esbuild.

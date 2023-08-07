@@ -1,6 +1,6 @@
 /* eslint-disable jsdoc/check-param-names */
 
-import { makeURLSearchParams, type RawFile, type REST, type RequestData } from '@discordjs/rest';
+import { makeURLSearchParams, type RawFile, type REST, type RequestData } from '@cyberpurge-net/rest';
 import {
 	Routes,
 	type RESTPostAPIChannelWebhookJSONBody,

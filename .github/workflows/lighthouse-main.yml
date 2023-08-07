@@ -14,7 +14,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v9
         with:
           urls: |
-            https://discordjs.dev
-            https://guide.discordjs.dev
+            https://cyberpurge-net.dev
+            https://guide.cyberpurge-net.dev
           uploadArtifacts: true
           temporaryPublicStorage: true

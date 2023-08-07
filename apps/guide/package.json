@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/guide",
+	"name": "@cyberpurge-net/guide",
 	"version": "0.1.0",
 	"description": "Imagine a guide... that explores the many possibilities for your discord.js bot",
 	"private": true,
@@ -32,20 +32,20 @@
 		"client",
 		"node",
 		"discordapp",
-		"discordjs"
+		"cyberpurge-net"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "apps/guide"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {
 		"@code-hike/mdx": "^0.9.0",
-		"@discordjs/ui": "workspace:^",
+		"@cyberpurge-net/ui": "workspace:^",
 		"@react-icons/all-files": "^4.1.0",
 		"@vercel/analytics": "^1.0.1",
 		"@vercel/edge-config": "^0.2.1",

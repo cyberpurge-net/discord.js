@@ -33,7 +33,7 @@ export async function createPackage(packageName: string, packageDescription?: st
 	const templateDir = join('..', 'scripts', 'src', 'template');
 
 	// Create files
-	await writeFile(join('src', 'index.ts'), `console.log('Hello, from @discordjs/${packageName}');`);
+	await writeFile(join('src', 'index.ts'), `console.log('Hello, from @cyberpurge-net/${packageName}');`);
 	await writeFile('.eslintrc.json', await readFile(join(templateDir, 'template.eslintrc.json'), 'utf8'));
 	await writeFile('.gitignore', await readFile(join(templateDir, 'template.gitignore'), 'utf8'));
 	await writeFile('.lintstagedrc.js', await readFile(join(templateDir, 'template.lintstagedrc.js'), 'utf8'));

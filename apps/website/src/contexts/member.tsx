@@ -1,6 +1,6 @@
 'use client';
 
-import type { ApiItemJSON } from '@discordjs/api-extractor-utils';
+import type { ApiItemJSON } from '@cyberpurge-net/api-extractor-utils';
 import type { ApiItem } from '@microsoft/api-extractor-model';
 import { createContext, useContext, useMemo, useState } from 'react';
 import type { PropsWithChildren, Dispatch, SetStateAction } from 'react';

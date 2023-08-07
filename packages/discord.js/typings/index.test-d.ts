@@ -176,7 +176,7 @@ import {
   GuildOnboarding,
 } from '.';
 import { expectAssignable, expectNotAssignable, expectNotType, expectType } from 'tsd';
-import type { ContextMenuCommandBuilder, SlashCommandBuilder } from '@discordjs/builders';
+import type { ContextMenuCommandBuilder, SlashCommandBuilder } from '@cyberpurge-net/builders';
 
 // Test type transformation:
 declare const serialize: <T>(value: T) => Serialized<T>;
@@ -352,7 +352,7 @@ declare const assertIsMessage: (m: Promise<Message>) => void;
 client.on('messageCreate', async message => {
   const { client, channel } = message;
 
-  // https://github.com/discordjs/discord.js/issues/8545
+  // https://github.com/cyberpurge-net/discord.js/issues/8545
   {
     // These should not throw any errors when comparing messages from any source.
     channel.messages.cache.filter(m => m);

@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/collection",
+	"name": "@cyberpurge-net/collection",
 	"version": "1.5.2",
 	"description": "Utility data structure used in discord.js",
 	"scripts": {
@@ -44,11 +44,11 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/collection"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"devDependencies": {

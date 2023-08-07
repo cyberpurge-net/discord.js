@@ -1,7 +1,7 @@
 import { stat, mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { cwd } from 'node:process';
-import { generatePath } from '@discordjs/api-extractor-utils';
+import { generatePath } from '@cyberpurge-net/api-extractor-utils';
 import {
 	ApiModel,
 	ApiDeclaredItem,
@@ -154,13 +154,13 @@ export async function generateIndex(model: ApiModel, packageName: string, tag = 
 
 export async function generateAllIndices() {
 	for (const pkg of PACKAGES) {
-		const response = await request(`https://docs.discordjs.dev/api/info?package=${pkg}`);
+		const response = await request(`https://docs.cyberpurge-net.dev/api/info?package=${pkg}`);
 		const versions = await response.body.json();
 
 		for (const version of versions) {
 			idx = 0;
 
-			const versionRes = await request(`https://docs.discordjs.dev/docs/${pkg}/${version}.api.json`);
+			const versionRes = await request(`https://docs.cyberpurge-net.dev/docs/${pkg}/${version}.api.json`);
 			const data = await versionRes.body.json();
 
 			const model = addPackageToModel(new ApiModel(), data);

@@ -50,7 +50,7 @@ export function ExcerptText({ model, excerpt }: ExcerptTextProps) {
 							className="text-blurple"
 							itemURI={resolveItemURI(item)}
 							key={`${item.displayName}-${item.containerKey}-${idx}`}
-							packageName={item.getAssociatedPackage()?.displayName.replace('@discordjs/', '')}
+							packageName={item.getAssociatedPackage()?.displayName.replace('@cyberpurge-net/', '')}
 						>
 							{token.text}
 						</ItemLink>

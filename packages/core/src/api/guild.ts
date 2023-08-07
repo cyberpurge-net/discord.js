@@ -1,6 +1,6 @@
 /* eslint-disable jsdoc/check-param-names */
 
-import { makeURLSearchParams, type REST, type RawFile, type RequestData } from '@discordjs/rest';
+import { makeURLSearchParams, type REST, type RawFile, type RequestData } from '@cyberpurge-net/rest';
 import {
 	Routes,
 	type GuildMFALevel,

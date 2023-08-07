@@ -1,7 +1,7 @@
 'use strict';
 
-const { messageLink } = require('@discordjs/builders');
-const { Collection } = require('@discordjs/collection');
+const { messageLink } = require('@cyberpurge-net/builders');
+const { Collection } = require('@cyberpurge-net/collection');
 const { DiscordSnowflake } = require('@sapphire/snowflake');
 const {
   InteractionType,

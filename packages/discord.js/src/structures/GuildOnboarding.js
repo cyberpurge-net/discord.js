@@ -1,6 +1,6 @@
 'use strict';
 
-const { Collection } = require('@discordjs/collection');
+const { Collection } = require('@cyberpurge-net/collection');
 const Base = require('./Base');
 const { GuildOnboardingPrompt } = require('./GuildOnboardingPrompt');
 

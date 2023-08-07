@@ -1,6 +1,6 @@
 import process from 'node:process';
 import { URL } from 'node:url';
-import { API } from '@discordjs/core/http-only';
+import { API } from '@cyberpurge-net/core/http-only';
 import { REST } from 'discord.js';
 import { loadCommands } from './loaders.js';
 

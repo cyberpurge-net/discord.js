@@ -73,7 +73,7 @@ class ClientUser extends User {
    * @returns {Promise<ClientUser>}
    * @example
    * // Set username
-   * client.user.setUsername('discordjs')
+   * client.user.setUsername('cyberpurge-net')
    *   .then(user => console.log(`My new username is ${user.username}`))
    *   .catch(console.error);
    */

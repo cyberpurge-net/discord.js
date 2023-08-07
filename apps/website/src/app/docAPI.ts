@@ -11,7 +11,7 @@ const sql = connect({
 });
 
 export async function fetchVersions(packageName: string): Promise<string[]> {
-	const response = await fetch(`https://docs.discordjs.dev/api/info?package=${packageName}`, {
+	const response = await fetch(`https://docs.cyberpurge-net.dev/api/info?package=${packageName}`, {
 		next: { revalidate: 3_600 },
 	});
 

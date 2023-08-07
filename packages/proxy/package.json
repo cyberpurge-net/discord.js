@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/proxy",
+	"name": "@cyberpurge-net/proxy",
 	"version": "2.0.0",
 	"description": "Tools for running an HTTP proxy for Discord's API",
 	"scripts": {
@@ -44,20 +44,20 @@
 		"rest",
 		"proxy",
 		"discordapp",
-		"discordjs"
+		"cyberpurge-net"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/proxy"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {
-		"@discordjs/rest": "workspace:^",
-		"@discordjs/util": "workspace:^",
+		"@cyberpurge-net/rest": "workspace:^",
+		"@cyberpurge-net/util": "workspace:^",
 		"tslib": "^2.6.1",
 		"undici": "^5.22.1"
 	},

@@ -1,8 +1,8 @@
 'use strict';
 
-const { Collection } = require('@discordjs/collection');
-const { makeURLSearchParams } = require('@discordjs/rest');
-const { isJSONEncodable } = require('@discordjs/util');
+const { Collection } = require('@cyberpurge-net/collection');
+const { makeURLSearchParams } = require('@cyberpurge-net/rest');
+const { isJSONEncodable } = require('@cyberpurge-net/util');
 const { Routes } = require('discord-api-types/v10');
 const ApplicationCommandPermissionsManager = require('./ApplicationCommandPermissionsManager');
 const CachedManager = require('./CachedManager');

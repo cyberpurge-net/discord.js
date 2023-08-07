@@ -60,5 +60,5 @@ jobs:
         run: yarn docs --filter="...[HEAD^1]"
 
       - name: Upload Coverage
-        if: github.repository_owner == 'discordjs'
+        if: github.repository_owner == 'cyberpurge-net'
         uses: ./packages/actions/src/uploadCoverage

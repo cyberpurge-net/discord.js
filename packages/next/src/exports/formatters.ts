@@ -1,1 +1,1 @@
-export * from '@discordjs/formatters';
+export * from '@cyberpurge-net/formatters';

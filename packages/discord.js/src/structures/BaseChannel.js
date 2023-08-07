@@ -1,6 +1,6 @@
 'use strict';
 
-const { channelLink } = require('@discordjs/builders');
+const { channelLink } = require('@cyberpurge-net/builders');
 const { DiscordSnowflake } = require('@sapphire/snowflake');
 const { ChannelType, Routes } = require('discord-api-types/v10');
 const Base = require('./Base');

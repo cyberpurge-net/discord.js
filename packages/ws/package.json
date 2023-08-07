@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/ws",
+	"name": "@cyberpurge-net/ws",
 	"version": "1.0.0",
 	"description": "Wrapper around Discord's gateway",
 	"scripts": {
@@ -49,21 +49,21 @@
 		"api",
 		"gateway",
 		"discordapp",
-		"discordjs"
+		"cyberpurge-net"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/ws"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {
-		"@discordjs/collection": "workspace:^",
-		"@discordjs/rest": "workspace:^",
-		"@discordjs/util": "workspace:^",
+		"@cyberpurge-net/collection": "workspace:^",
+		"@cyberpurge-net/rest": "workspace:^",
+		"@cyberpurge-net/util": "workspace:^",
 		"@sapphire/async-queue": "^1.5.0",
 		"@types/ws": "^8.5.5",
 		"@vladfrangu/async_event_emitter": "^2.2.2",

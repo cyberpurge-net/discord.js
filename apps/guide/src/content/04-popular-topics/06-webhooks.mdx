@@ -99,7 +99,7 @@ Webhooks can be created with the <DocsLink type="class" parent="TextChannel" sym
 
 ```js
 channel
-	.createWebhook({ name: 'Username', avatar: 'https://guide.discordjs.dev/assets/discordjs.png' })
+	.createWebhook({ name: 'Username', avatar: 'https://guide.cyberpurge-net.dev/assets/cyberpurge-net.png' })
 	.then((webhook) => console.log(`Created webhook ${webhook}`))
 	.catch(console.error);
 ```
@@ -114,7 +114,7 @@ You can edit Webhooks and WebhookClients to change their name, avatar, and chann
 
 ```js
 webhook
-	.edit({ name: 'Username', avatar: 'https://guide.discordjs.dev/assets/discordjs.png', channel: '123456789012345678' })
+	.edit({ name: 'Username', avatar: 'https://guide.cyberpurge-net.dev/assets/cyberpurge-net.png', channel: '123456789012345678' })
 	.then((webhook) => console.log(`Edited webhook ${webhook}`))
 	.catch(console.error);
 ```
@@ -144,7 +144,7 @@ const embed = new EmbedBuilder().setTitle('Some Title').setColor(0x00ffff);
 await webhookClient.send({
 	content: 'Webhook test',
 	username: 'some-username',
-	avatarURL: 'https://guide.discordjs.dev/assets/discordjs.png',
+	avatarURL: 'https://guide.cyberpurge-net.dev/assets/cyberpurge-net.png',
 	embeds: [embed],
 });
 ```
@@ -174,7 +174,7 @@ client.once(Events.ClientReady, async () => {
 		await webhook.send({
 			content: 'Webhook test',
 			username: 'some-username',
-			avatarURL: 'https://guide.discordjs.dev/assets/discordjs.png',
+			avatarURL: 'https://guide.cyberpurge-net.dev/assets/cyberpurge-net.png',
 			embeds: [embed],
 		});
 	} catch (error) {

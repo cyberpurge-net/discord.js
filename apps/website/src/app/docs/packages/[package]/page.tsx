@@ -13,7 +13,7 @@ async function getData(pkg: string) {
 		notFound();
 	}
 
-	const res = await fetch(`https://docs.discordjs.dev/api/info?package=${pkg}`, { next: { revalidate: 3_600 } });
+	const res = await fetch(`https://docs.cyberpurge-net.dev/api/info?package=${pkg}`, { next: { revalidate: 3_600 } });
 	const data: string[] = await res.json();
 
 	if (!data.length) {

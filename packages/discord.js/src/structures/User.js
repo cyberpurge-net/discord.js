@@ -1,7 +1,7 @@
 'use strict';
 
-const { userMention } = require('@discordjs/builders');
-const { calculateUserDefaultAvatarIndex } = require('@discordjs/rest');
+const { userMention } = require('@cyberpurge-net/builders');
+const { calculateUserDefaultAvatarIndex } = require('@cyberpurge-net/rest');
 const { DiscordSnowflake } = require('@sapphire/snowflake');
 const Base = require('./Base');
 const TextBasedChannel = require('./interfaces/TextBasedChannel');

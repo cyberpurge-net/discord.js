@@ -6,20 +6,20 @@
 	<br />
 	<p>
 		<a href="https://discord.gg/djs"><img src="https://img.shields.io/discord/222078108977594368?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
-		<a href="https://www.npmjs.com/package/@discordjs/voice"><img src="https://img.shields.io/npm/v/@discordjs/voice.svg?maxAge=3600" alt="npm version" /></a>
-		<a href="https://www.npmjs.com/package/@discordjs/voice"><img src="https://img.shields.io/npm/dt/@discordjs/voice.svg?maxAge=3600" alt="npm downloads" /></a>
-		<a href="https://github.com/discordjs/discord.js/actions"><img src="https://github.com/discordjs/discord.js/actions/workflows/test.yml/badge.svg" alt="Build status" /></a>
-		<a href="https://codecov.io/gh/discordjs/discord.js" ><img src="https://codecov.io/gh/discordjs/discord.js/branch/main/graph/badge.svg?precision=2&flag=voice" alt="Code coverage" /></a>
+		<a href="https://www.npmjs.com/package/@cyberpurge-net/voice"><img src="https://img.shields.io/npm/v/@cyberpurge-net/voice.svg?maxAge=3600" alt="npm version" /></a>
+		<a href="https://www.npmjs.com/package/@cyberpurge-net/voice"><img src="https://img.shields.io/npm/dt/@cyberpurge-net/voice.svg?maxAge=3600" alt="npm downloads" /></a>
+		<a href="https://github.com/cyberpurge-net/discord.js/actions"><img src="https://github.com/cyberpurge-net/discord.js/actions/workflows/test.yml/badge.svg" alt="Build status" /></a>
+		<a href="https://codecov.io/gh/cyberpurge-net/discord.js" ><img src="https://codecov.io/gh/cyberpurge-net/discord.js/branch/main/graph/badge.svg?precision=2&flag=voice" alt="Code coverage" /></a>
 	</p>
 	<p>
-		<a href="https://vercel.com/?utm_source=discordjs&utm_campaign=oss"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
-		<a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-workers.png" alt="Cloudflare Workers" height="44" /></a>
+		<a href="https://vercel.com/?utm_source=cyberpurge-net&utm_campaign=oss"><img src="https://raw.githubusercontent.com/cyberpurge-net/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
+		<a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/cyberpurge-net/discord.js/main/.github/powered-by-workers.png" alt="Cloudflare Workers" height="44" /></a>
 	</p>
 </div>
 
 ## About
 
-`@discordjs/voice` is a TypeScript implementation of the Discord Voice API for Node.js.
+`@cyberpurge-net/voice` is a TypeScript implementation of the Discord Voice API for Node.js.
 
 **Features:**
 
@@ -35,9 +35,9 @@
 **Node.js 16.9.0 or newer is required.**
 
 ```sh
-npm install @discordjs/voice
-yarn add @discordjs/voice
-pnpm add @discordjs/voice
+npm install @cyberpurge-net/voice
+yarn add @cyberpurge-net/voice
+pnpm add @cyberpurge-net/voice
 ```
 
 ## Dependencies
@@ -57,7 +57,7 @@ try installing another.
 
 **Opus Libraries (npm install):**
 
-- `@discordjs/opus`: ^0.4.0
+- `@cyberpurge-net/opus`: ^0.4.0
 - `opusscript`: ^0.0.7
 
 **FFmpeg:**
@@ -92,15 +92,15 @@ See [the contribution guide][contributing] if you'd like to submit a PR.
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [discord.js Server][discord].
 
 [website]: https://discord.js.org
-[website-source]: https://github.com/discordjs/discord.js/tree/main/apps/website
+[website-source]: https://github.com/cyberpurge-net/discord.js/tree/main/apps/website
 [documentation]: https://discord.js.org/docs/packages/voice/stable
-[guide]: https://discordjs.guide/
-[guide-source]: https://github.com/discordjs/guide
-[guide-update]: https://discordjs.guide/additional-info/changes-in-v14.html
+[guide]: https://cyberpurge-net.guide/
+[guide-source]: https://github.com/cyberpurge-net/guide
+[guide-update]: https://cyberpurge-net.guide/additional-info/changes-in-v14.html
 [discord]: https://discord.gg/djs
 [discord-api]: https://discord.gg/discord-api
-[source]: https://github.com/discordjs/discord.js/tree/main/packages/voice
-[npm]: https://www.npmjs.com/package/@discordjs/voice
+[source]: https://github.com/cyberpurge-net/discord.js/tree/main/packages/voice
+[npm]: https://www.npmjs.com/package/@cyberpurge-net/voice
 [related-libs]: https://discord.com/developers/docs/topics/community-resources#libraries
-[contributing]: https://github.com/discordjs/discord.js/blob/main/.github/CONTRIBUTING.md
-[voice-examples]: https://github.com/discordjs/voice-examples
+[contributing]: https://github.com/cyberpurge-net/discord.js/blob/main/.github/CONTRIBUTING.md
+[voice-examples]: https://github.com/cyberpurge-net/voice-examples

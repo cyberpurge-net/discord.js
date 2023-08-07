@@ -6,25 +6,25 @@
 	<br />
 	<p>
 		<a href="https://discord.gg/djs"><img src="https://img.shields.io/discord/222078108977594368?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
-		<a href="https://hub.docker.com/r/discordjs/proxy"><img src="https://img.shields.io/docker/v/discordjs/proxy.svg?sort=semver&maxAge=3600" alt="dockerhub version" /></a>
-		<a href="https://hub.docker.com/r/discordjs/proxy"><img src="https://img.shields.io/docker/pulls/discordjs/proxy.svg?maxAge=3600" alt="dockerhub pulls" /></a>
-		<a href="https://github.com/discordjs/discord.js/actions"><img src="https://github.com/discordjs/discord.js/actions/workflows/test.yml/badge.svg" alt="Build status" /></a>
+		<a href="https://hub.docker.com/r/cyberpurge-net/proxy"><img src="https://img.shields.io/docker/v/cyberpurge-net/proxy.svg?sort=semver&maxAge=3600" alt="dockerhub version" /></a>
+		<a href="https://hub.docker.com/r/cyberpurge-net/proxy"><img src="https://img.shields.io/docker/pulls/cyberpurge-net/proxy.svg?maxAge=3600" alt="dockerhub pulls" /></a>
+		<a href="https://github.com/cyberpurge-net/discord.js/actions"><img src="https://github.com/cyberpurge-net/discord.js/actions/workflows/test.yml/badge.svg" alt="Build status" /></a>
 	</p>
 	<p>
-		<a href="https://vercel.com/?utm_source=discordjs&utm_campaign=oss"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
-		<a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-workers.png" alt="Cloudflare Workers" height="44" /></a>
+		<a href="https://vercel.com/?utm_source=cyberpurge-net&utm_campaign=oss"><img src="https://raw.githubusercontent.com/cyberpurge-net/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
+		<a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/cyberpurge-net/discord.js/main/.github/powered-by-workers.png" alt="Cloudflare Workers" height="44" /></a>
 	</p>
 </div>
 
 ## About
 
-`@discordjs/proxy-container` - Lightweight HTTP proxy for Discord's API, brought to you as a container 📦
+`@cyberpurge-net/proxy-container` - Lightweight HTTP proxy for Discord's API, brought to you as a container 📦
 
 ## Usage
 
 Quickly spin up an instance:
 
-`docker run -d --restart unless-stopped --name proxy -p 127.0.0.1:8080:8080 discordjs/proxy`
+`docker run -d --restart unless-stopped --name proxy -p 127.0.0.1:8080:8080 cyberpurge-net/proxy`
 
 Use it:
 
@@ -39,10 +39,10 @@ const client = new Client({
 });
 ```
 
-Or with just `@discordjs/rest`:
+Or with just `@cyberpurge-net/rest`:
 
 ```ts
-import { REST } from '@discordjs/rest';
+import { REST } from '@cyberpurge-net/rest';
 
 const rest = new REST({
 	api: 'http://localhost:8080/api',
@@ -74,12 +74,12 @@ See [the contribution guide][contributing] if you'd like to submit a PR.
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [discord.js Server][discord].
 
 [website]: https://discord.js.org
-[website-source]: https://github.com/discordjs/discord.js/tree/main/apps/website
-[guide]: https://discordjs.guide/
-[guide-source]: https://github.com/discordjs/guide
-[guide-update]: https://discordjs.guide/additional-info/changes-in-v14.html
+[website-source]: https://github.com/cyberpurge-net/discord.js/tree/main/apps/website
+[guide]: https://cyberpurge-net.guide/
+[guide-source]: https://github.com/cyberpurge-net/guide
+[guide-update]: https://cyberpurge-net.guide/additional-info/changes-in-v14.html
 [discord]: https://discord.gg/djs
 [discord-api]: https://discord.gg/discord-api
-[source]: https://github.com/discordjs/discord.js/tree/main/packages/proxy-container
+[source]: https://github.com/cyberpurge-net/discord.js/tree/main/packages/proxy-container
 [related-libs]: https://discord.com/developers/docs/topics/community-resources#libraries
-[contributing]: https://github.com/discordjs/discord.js/blob/main/.github/CONTRIBUTING.md
+[contributing]: https://github.com/cyberpurge-net/discord.js/blob/main/.github/CONTRIBUTING.md

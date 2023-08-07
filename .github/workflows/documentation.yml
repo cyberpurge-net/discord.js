@@ -29,7 +29,7 @@ jobs:
     env:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
-    if: github.repository_owner == 'discordjs'
+    if: github.repository_owner == 'cyberpurge-net'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -53,7 +53,7 @@ jobs:
       - name: Checkout docs repository
         uses: actions/checkout@v3
         with:
-          repository: 'discordjs/docs'
+          repository: 'cyberpurge-net/docs'
           token: ${{ secrets.DJS_DOCS }}
           path: 'out'
 

@@ -1,4 +1,4 @@
-import { Alert } from '@discordjs/ui';
+import { Alert } from '@cyberpurge-net/ui';
 import type { PropsWithChildren } from 'react';
 
 export function Block({ children, title }: PropsWithChildren<{ readonly title: string }>) {

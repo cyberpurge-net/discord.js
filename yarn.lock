@@ -2011,43 +2011,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@definitelytyped/header-parser@npm:latest":
-  version: 0.0.163
-  resolution: "@definitelytyped/header-parser@npm:0.0.163"
-  dependencies:
-    "@definitelytyped/typescript-versions": ^0.0.163
-    "@types/parsimmon": ^1.10.1
-    parsimmon: ^1.13.0
-  checksum: 1e05f1a7bb98596b482aae0722b185f20c521914f7272a36a7fd401579238e5cd4e2f37211aef7dfda89da4f38437a7d9557ae356815ec1c9c70366e4efada91
-  languageName: node
-  linkType: hard
-
-"@definitelytyped/typescript-versions@npm:^0.0.163, @definitelytyped/typescript-versions@npm:latest":
-  version: 0.0.163
-  resolution: "@definitelytyped/typescript-versions@npm:0.0.163"
-  checksum: 3f4729c8b9f61ca6d6cc9d59663227ebdd2ea1cd2eba33e7ca4415d9b6eb3bea4ebd542060a9406abe87d33d49682d44514ea642ef0096ca9b16c344b35afd3d
-  languageName: node
-  linkType: hard
-
-"@definitelytyped/utils@npm:latest":
-  version: 0.0.163
-  resolution: "@definitelytyped/utils@npm:0.0.163"
-  dependencies:
-    "@definitelytyped/typescript-versions": ^0.0.163
-    "@qiwi/npm-registry-client": ^8.9.1
-    "@types/node": ^14.14.35
-    charm: ^1.0.2
-    fs-extra: ^8.1.0
-    fstream: ^1.0.12
-    tar: ^6.1.11
-    tar-stream: ^2.1.4
-  checksum: 8b767e8d567fbb8f8b7dfacc31607cc96abbf3a4fec92818571e21dc4f3a46ba03480146e7c9c21a87f2a2827045e4c829d1f330c9d26e47c07de73db357d05c
-  languageName: node
-  linkType: hard
-
-"@discordjs/actions@workspace:packages/actions":
+"@cyberpurge-net/actions@workspace:packages/actions":
   version: 0.0.0-use.local
-  resolution: "@discordjs/actions@workspace:packages/actions"
+  resolution: "@cyberpurge-net/actions@workspace:packages/actions"
   dependencies:
     "@actions/core": ^1.10.0
     "@actions/glob": ^0.4.0
@@ -2068,9 +2034,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/api-extractor-utils@workspace:^, @discordjs/api-extractor-utils@workspace:packages/api-extractor-utils":
+"@cyberpurge-net/api-extractor-utils@workspace:^, @cyberpurge-net/api-extractor-utils@workspace:packages/api-extractor-utils":
   version: 0.0.0-use.local
-  resolution: "@discordjs/api-extractor-utils@workspace:packages/api-extractor-utils"
+  resolution: "@cyberpurge-net/api-extractor-utils@workspace:packages/api-extractor-utils"
   dependencies:
     "@microsoft/api-extractor-model": 7.27.5
     "@microsoft/tsdoc": 0.14.2
@@ -2086,9 +2052,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/brokers@workspace:packages/brokers":
+"@cyberpurge-net/brokers@workspace:packages/brokers":
   version: 0.0.0-use.local
-  resolution: "@discordjs/brokers@workspace:packages/brokers"
+  resolution: "@cyberpurge-net/brokers@workspace:packages/brokers"
   dependencies:
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
@@ -2109,12 +2075,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/builders@workspace:^, @discordjs/builders@workspace:packages/builders":
+"@cyberpurge-net/builders@workspace:^, @cyberpurge-net/builders@workspace:packages/builders":
   version: 0.0.0-use.local
-  resolution: "@discordjs/builders@workspace:packages/builders"
+  resolution: "@cyberpurge-net/builders@workspace:packages/builders"
   dependencies:
-    "@discordjs/formatters": "workspace:^"
-    "@discordjs/util": "workspace:^"
+    "@cyberpurge-net/formatters": "workspace:^"
+    "@cyberpurge-net/util": "workspace:^"
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
     "@sapphire/shapeshift": ^3.9.2
@@ -2138,9 +2104,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/collection@workspace:^, @discordjs/collection@workspace:packages/collection":
+"@cyberpurge-net/collection@workspace:^, @cyberpurge-net/collection@workspace:packages/collection":
   version: 0.0.0-use.local
-  resolution: "@discordjs/collection@workspace:packages/collection"
+  resolution: "@cyberpurge-net/collection@workspace:packages/collection"
   dependencies:
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
@@ -2159,13 +2125,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/core@workspace:^, @discordjs/core@workspace:packages/core":
+"@cyberpurge-net/core@workspace:^, @cyberpurge-net/core@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "@discordjs/core@workspace:packages/core"
+  resolution: "@cyberpurge-net/core@workspace:packages/core"
   dependencies:
-    "@discordjs/rest": "workspace:^"
-    "@discordjs/util": "workspace:^"
-    "@discordjs/ws": "workspace:^"
+    "@cyberpurge-net/rest": "workspace:^"
+    "@cyberpurge-net/util": "workspace:^"
+    "@cyberpurge-net/ws": "workspace:^"
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
     "@sapphire/snowflake": ^3.5.1
@@ -2186,30 +2152,42 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/discord.js@workspace:.":
+"@cyberpurge-net/discord.js@workspace:packages/discord.js":
   version: 0.0.0-use.local
-  resolution: "@discordjs/discord.js@workspace:."
+  resolution: "@cyberpurge-net/discord.js@workspace:packages/discord.js"
   dependencies:
-    "@commitlint/cli": ^17.6.7
-    "@commitlint/config-angular": ^17.6.7
+    "@cyberpurge-net/builders": "workspace:^"
+    "@cyberpurge-net/collection": "workspace:^"
+    "@cyberpurge-net/docgen": "workspace:^"
+    "@cyberpurge-net/formatters": "workspace:^"
+    "@cyberpurge-net/rest": "workspace:^"
+    "@cyberpurge-net/util": "workspace:^"
+    "@cyberpurge-net/ws": "workspace:^"
     "@favware/cliff-jumper": ^2.1.1
-    "@favware/npm-deprecate": ^1.0.7
-    conventional-changelog-cli: ^3.0.0
-    husky: ^8.0.3
-    is-ci: ^3.0.1
-    lint-staged: ^13.2.3
-    tsup: ^7.1.0
+    "@sapphire/snowflake": ^3.5.1
+    "@types/node": 16.18.39
+    "@types/ws": ^8.5.5
+    discord-api-types: ^0.37.50
+    dtslint: ^4.2.1
+    eslint: ^8.46.0
+    eslint-formatter-pretty: ^5.0.0
+    fast-deep-equal: ^3.1.3
+    jest: ^29.6.2
+    lodash.snakecase: ^4.1.1
+    prettier: ^2.8.8
+    tsd: ^0.28.1
+    tslib: ^2.6.1
+    tslint: ^6.1.3
     turbo: ^1.10.12
     typescript: ^5.1.6
-    unocss: ^0.54.0
-    vercel: ^31.2.0
-    vitest: ^0.33.0
+    undici: ^5.22.1
+    ws: ^8.13.0
   languageName: unknown
   linkType: soft
 
-"@discordjs/docgen@workspace:^, @discordjs/docgen@workspace:packages/docgen":
+"@cyberpurge-net/docgen@workspace:^, @cyberpurge-net/docgen@workspace:packages/docgen":
   version: 0.0.0-use.local
-  resolution: "@discordjs/docgen@workspace:packages/docgen"
+  resolution: "@cyberpurge-net/docgen@workspace:packages/docgen"
   dependencies:
     "@favware/cliff-jumper": ^2.1.1
     "@types/jsdoc-to-markdown": ^7.0.3
@@ -2231,9 +2209,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/formatters@workspace:^, @discordjs/formatters@workspace:packages/formatters":
+"@cyberpurge-net/formatters@workspace:^, @cyberpurge-net/formatters@workspace:packages/formatters":
   version: 0.0.0-use.local
-  resolution: "@discordjs/formatters@workspace:packages/formatters"
+  resolution: "@cyberpurge-net/formatters@workspace:packages/formatters"
   dependencies:
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
@@ -2252,12 +2230,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/guide@workspace:apps/guide":
+"@cyberpurge-net/guide@workspace:apps/guide":
   version: 0.0.0-use.local
-  resolution: "@discordjs/guide@workspace:apps/guide"
+  resolution: "@cyberpurge-net/guide@workspace:apps/guide"
   dependencies:
     "@code-hike/mdx": ^0.9.0
-    "@discordjs/ui": "workspace:^"
+    "@cyberpurge-net/ui": "workspace:^"
     "@next/bundle-analyzer": ^13.4.12
     "@react-icons/all-files": ^4.1.0
     "@testing-library/react": ^14.0.0
@@ -2306,17 +2284,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/next@workspace:packages/next":
+"@cyberpurge-net/next@workspace:packages/next":
   version: 0.0.0-use.local
-  resolution: "@discordjs/next@workspace:packages/next"
+  resolution: "@cyberpurge-net/next@workspace:packages/next"
   dependencies:
-    "@discordjs/builders": "workspace:^"
-    "@discordjs/collection": "workspace:^"
-    "@discordjs/core": "workspace:^"
-    "@discordjs/formatters": "workspace:^"
-    "@discordjs/rest": "workspace:^"
-    "@discordjs/util": "workspace:^"
-    "@discordjs/ws": "workspace:^"
+    "@cyberpurge-net/builders": "workspace:^"
+    "@cyberpurge-net/collection": "workspace:^"
+    "@cyberpurge-net/core": "workspace:^"
+    "@cyberpurge-net/formatters": "workspace:^"
+    "@cyberpurge-net/rest": "workspace:^"
+    "@cyberpurge-net/util": "workspace:^"
+    "@cyberpurge-net/ws": "workspace:^"
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
     "@types/node": 18.17.1
@@ -2335,12 +2313,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/proxy-container@workspace:packages/proxy-container":
+"@cyberpurge-net/proxy-container@workspace:packages/proxy-container":
   version: 0.0.0-use.local
-  resolution: "@discordjs/proxy-container@workspace:packages/proxy-container"
+  resolution: "@cyberpurge-net/proxy-container@workspace:packages/proxy-container"
   dependencies:
-    "@discordjs/proxy": "workspace:^"
-    "@discordjs/rest": "workspace:^"
+    "@cyberpurge-net/proxy": "workspace:^"
+    "@cyberpurge-net/rest": "workspace:^"
     "@types/node": 18.17.1
     cross-env: ^7.0.3
     eslint: ^8.46.0
@@ -2354,12 +2332,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/proxy@workspace:^, @discordjs/proxy@workspace:packages/proxy":
+"@cyberpurge-net/proxy@workspace:^, @cyberpurge-net/proxy@workspace:packages/proxy":
   version: 0.0.0-use.local
-  resolution: "@discordjs/proxy@workspace:packages/proxy"
+  resolution: "@cyberpurge-net/proxy@workspace:packages/proxy"
   dependencies:
-    "@discordjs/rest": "workspace:^"
-    "@discordjs/util": "workspace:^"
+    "@cyberpurge-net/rest": "workspace:^"
+    "@cyberpurge-net/util": "workspace:^"
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
     "@types/node": 18.17.1
@@ -2380,12 +2358,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/rest@workspace:^, @discordjs/rest@workspace:packages/rest":
+"@cyberpurge-net/rest@workspace:^, @cyberpurge-net/rest@workspace:packages/rest":
   version: 0.0.0-use.local
-  resolution: "@discordjs/rest@workspace:packages/rest"
+  resolution: "@cyberpurge-net/rest@workspace:packages/rest"
   dependencies:
-    "@discordjs/collection": "workspace:^"
-    "@discordjs/util": "workspace:^"
+    "@cyberpurge-net/collection": "workspace:^"
+    "@cyberpurge-net/util": "workspace:^"
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
     "@sapphire/async-queue": ^1.5.0
@@ -2410,11 +2388,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/scripts@workspace:^, @discordjs/scripts@workspace:packages/scripts":
+"@cyberpurge-net/scripts@workspace:^, @cyberpurge-net/scripts@workspace:packages/scripts":
   version: 0.0.0-use.local
-  resolution: "@discordjs/scripts@workspace:packages/scripts"
+  resolution: "@cyberpurge-net/scripts@workspace:packages/scripts"
   dependencies:
-    "@discordjs/api-extractor-utils": "workspace:^"
+    "@cyberpurge-net/api-extractor-utils": "workspace:^"
     "@microsoft/api-extractor-model": 7.27.5
     "@microsoft/tsdoc": 0.14.2
     "@microsoft/tsdoc-config": 0.16.2
@@ -2438,9 +2416,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/ui@workspace:^, @discordjs/ui@workspace:packages/ui":
+"@cyberpurge-net/ui@workspace:^, @cyberpurge-net/ui@workspace:packages/ui":
   version: 0.0.0-use.local
-  resolution: "@discordjs/ui@workspace:packages/ui"
+  resolution: "@cyberpurge-net/ui@workspace:packages/ui"
   dependencies:
     "@favware/cliff-jumper": ^2.1.1
     "@react-icons/all-files": ^4.1.0
@@ -2480,9 +2458,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/util@workspace:^, @discordjs/util@workspace:packages/util":
+"@cyberpurge-net/util@workspace:^, @cyberpurge-net/util@workspace:packages/util":
   version: 0.0.0-use.local
-  resolution: "@discordjs/util@workspace:packages/util"
+  resolution: "@cyberpurge-net/util@workspace:packages/util"
   dependencies:
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
@@ -2501,9 +2479,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/voice@workspace:packages/voice":
+"@cyberpurge-net/voice@workspace:packages/voice":
   version: 0.0.0-use.local
-  resolution: "@discordjs/voice@workspace:packages/voice"
+  resolution: "@cyberpurge-net/voice@workspace:packages/voice"
   dependencies:
     "@babel/core": ^7.22.9
     "@babel/preset-env": ^7.22.9
@@ -2533,13 +2511,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/website@workspace:apps/website":
+"@cyberpurge-net/website@workspace:apps/website":
   version: 0.0.0-use.local
-  resolution: "@discordjs/website@workspace:apps/website"
+  resolution: "@cyberpurge-net/website@workspace:apps/website"
   dependencies:
-    "@discordjs/api-extractor-utils": "workspace:^"
-    "@discordjs/scripts": "workspace:^"
-    "@discordjs/ui": "workspace:^"
+    "@cyberpurge-net/api-extractor-utils": "workspace:^"
+    "@cyberpurge-net/scripts": "workspace:^"
+    "@cyberpurge-net/ui": "workspace:^"
     "@microsoft/api-extractor-model": 7.27.5
     "@microsoft/tsdoc": 0.14.2
     "@next/bundle-analyzer": ^13.4.12
@@ -2591,13 +2569,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discordjs/ws@workspace:^, @discordjs/ws@workspace:packages/ws":
+"@cyberpurge-net/ws@workspace:^, @cyberpurge-net/ws@workspace:packages/ws":
   version: 0.0.0-use.local
-  resolution: "@discordjs/ws@workspace:packages/ws"
+  resolution: "@cyberpurge-net/ws@workspace:packages/ws"
   dependencies:
-    "@discordjs/collection": "workspace:^"
-    "@discordjs/rest": "workspace:^"
-    "@discordjs/util": "workspace:^"
+    "@cyberpurge-net/collection": "workspace:^"
+    "@cyberpurge-net/rest": "workspace:^"
+    "@cyberpurge-net/util": "workspace:^"
     "@favware/cliff-jumper": ^2.1.1
     "@microsoft/api-extractor": ^7.36.3
     "@sapphire/async-queue": ^1.5.0
@@ -2623,6 +2601,40 @@ __metadata:
     zlib-sync: ^0.1.8
   languageName: unknown
   linkType: soft
+
+"@definitelytyped/header-parser@npm:latest":
+  version: 0.0.163
+  resolution: "@definitelytyped/header-parser@npm:0.0.163"
+  dependencies:
+    "@definitelytyped/typescript-versions": ^0.0.163
+    "@types/parsimmon": ^1.10.1
+    parsimmon: ^1.13.0
+  checksum: 1e05f1a7bb98596b482aae0722b185f20c521914f7272a36a7fd401579238e5cd4e2f37211aef7dfda89da4f38437a7d9557ae356815ec1c9c70366e4efada91
+  languageName: node
+  linkType: hard
+
+"@definitelytyped/typescript-versions@npm:^0.0.163, @definitelytyped/typescript-versions@npm:latest":
+  version: 0.0.163
+  resolution: "@definitelytyped/typescript-versions@npm:0.0.163"
+  checksum: 3f4729c8b9f61ca6d6cc9d59663227ebdd2ea1cd2eba33e7ca4415d9b6eb3bea4ebd542060a9406abe87d33d49682d44514ea642ef0096ca9b16c344b35afd3d
+  languageName: node
+  linkType: hard
+
+"@definitelytyped/utils@npm:latest":
+  version: 0.0.163
+  resolution: "@definitelytyped/utils@npm:0.0.163"
+  dependencies:
+    "@definitelytyped/typescript-versions": ^0.0.163
+    "@qiwi/npm-registry-client": ^8.9.1
+    "@types/node": ^14.14.35
+    charm: ^1.0.2
+    fs-extra: ^8.1.0
+    fstream: ^1.0.12
+    tar: ^6.1.11
+    tar-stream: ^2.1.4
+  checksum: 8b767e8d567fbb8f8b7dfacc31607cc96abbf3a4fec92818571e21dc4f3a46ba03480146e7c9c21a87f2a2827045e4c829d1f330c9d26e47c07de73db357d05c
+  languageName: node
+  linkType: hard
 
 "@discoveryjs/json-ext@npm:^0.5.3":
   version: 0.5.7
@@ -3804,9 +3816,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/tsdoc-config@patch:@microsoft/tsdoc-config@npm%3A0.16.2#./.yarn/patches/@microsoft-tsdoc-config-npm-0.16.2-30fd115d09.patch::locator=%40discordjs%2Fdiscord.js%40workspace%3A.":
+"@microsoft/tsdoc-config@patch:@microsoft/tsdoc-config@npm%3A0.16.2#./.yarn/patches/@microsoft-tsdoc-config-npm-0.16.2-30fd115d09.patch::locator=discord.js%40workspace%3A.":
   version: 0.16.2
-  resolution: "@microsoft/tsdoc-config@patch:@microsoft/tsdoc-config@npm%3A0.16.2#./.yarn/patches/@microsoft-tsdoc-config-npm-0.16.2-30fd115d09.patch::version=0.16.2&hash=974f29&locator=%40discordjs%2Fdiscord.js%40workspace%3A."
+  resolution: "@microsoft/tsdoc-config@patch:@microsoft/tsdoc-config@npm%3A0.16.2#./.yarn/patches/@microsoft-tsdoc-config-npm-0.16.2-30fd115d09.patch::version=0.16.2&hash=974f29&locator=discord.js%40workspace%3A."
   dependencies:
     "@microsoft/tsdoc": 0.14.2
     ajv: ~6.12.6
@@ -10807,36 +10819,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord.js@workspace:packages/discord.js":
+"discord.js@workspace:.":
   version: 0.0.0-use.local
-  resolution: "discord.js@workspace:packages/discord.js"
+  resolution: "discord.js@workspace:."
   dependencies:
-    "@discordjs/builders": "workspace:^"
-    "@discordjs/collection": "workspace:^"
-    "@discordjs/docgen": "workspace:^"
-    "@discordjs/formatters": "workspace:^"
-    "@discordjs/rest": "workspace:^"
-    "@discordjs/util": "workspace:^"
-    "@discordjs/ws": "workspace:^"
+    "@commitlint/cli": ^17.6.7
+    "@commitlint/config-angular": ^17.6.7
     "@favware/cliff-jumper": ^2.1.1
-    "@sapphire/snowflake": ^3.5.1
-    "@types/node": 16.18.39
-    "@types/ws": ^8.5.5
-    discord-api-types: ^0.37.50
-    dtslint: ^4.2.1
-    eslint: ^8.46.0
-    eslint-formatter-pretty: ^5.0.0
-    fast-deep-equal: ^3.1.3
-    jest: ^29.6.2
-    lodash.snakecase: ^4.1.1
-    prettier: ^2.8.8
-    tsd: ^0.28.1
-    tslib: ^2.6.1
-    tslint: ^6.1.3
+    "@favware/npm-deprecate": ^1.0.7
+    conventional-changelog-cli: ^3.0.0
+    husky: ^8.0.3
+    is-ci: ^3.0.1
+    lint-staged: ^13.2.3
+    tsup: ^7.1.0
     turbo: ^1.10.12
     typescript: ^5.1.6
-    undici: ^5.22.1
-    ws: ^8.13.0
+    unocss: ^0.54.0
+    vercel: ^31.2.0
+    vitest: ^0.33.0
   languageName: unknown
   linkType: soft
 
@@ -19711,12 +19711,12 @@ __metadata:
   version: 1.3.5
   resolution: "prism-media@npm:1.3.5"
   peerDependencies:
-    "@discordjs/opus": ">=0.8.0 <1.0.0"
+    "@cyberpurge-net/opus": ">=0.8.0 <1.0.0"
     ffmpeg-static: ^5.0.2 || ^4.2.7 || ^3.0.0 || ^2.4.0
     node-opus: ^0.3.3
     opusscript: ^0.0.8
   peerDependenciesMeta:
-    "@discordjs/opus":
+    "@cyberpurge-net/opus":
       optional: true
     ffmpeg-static:
       optional: true
@@ -24837,9 +24837,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@patch:yaml@npm%3A2.2.2#./.yarn/patches/yaml-npm-2.2.2-6e3cddb343.patch::locator=%40discordjs%2Fdiscord.js%40workspace%3A.":
+"yaml@patch:yaml@npm%3A2.2.2#./.yarn/patches/yaml-npm-2.2.2-6e3cddb343.patch::locator=discord.js%40workspace%3A.":
   version: 2.2.2
-  resolution: "yaml@patch:yaml@npm%3A2.2.2#./.yarn/patches/yaml-npm-2.2.2-6e3cddb343.patch::version=2.2.2&hash=2af928&locator=%40discordjs%2Fdiscord.js%40workspace%3A."
+  resolution: "yaml@patch:yaml@npm%3A2.2.2#./.yarn/patches/yaml-npm-2.2.2-6e3cddb343.patch::version=2.2.2&hash=2af928&locator=discord.js%40workspace%3A."
   checksum: 3ef8fd54fae7a810ea323a9d183b37698aaf7c0ab03334a4740a919489361ef7014c8ffefe561f21086cd697ec7c3643cb0551c9f729f24ce9d1c2904a213727
   languageName: node
   linkType: hard

@@ -1,6 +1,6 @@
 'use strict';
 
-const { Collection } = require('@discordjs/collection');
+const { Collection } = require('@cyberpurge-net/collection');
 const { DiscordjsTypeError, ErrorCodes } = require('../errors');
 
 /**

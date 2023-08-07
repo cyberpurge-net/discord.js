@@ -1,7 +1,7 @@
 'use strict';
 
-const { SelectMenuBuilder: BuildersSelectMenu, normalizeArray } = require('@discordjs/builders');
-const { isJSONEncodable } = require('@discordjs/util');
+const { SelectMenuBuilder: BuildersSelectMenu, normalizeArray } = require('@cyberpurge-net/builders');
+const { isJSONEncodable } = require('@cyberpurge-net/util');
 const { toSnakeCase } = require('../util/Transformers');
 const { resolvePartialEmoji } = require('../util/Util');
 

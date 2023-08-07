@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/voice",
+	"name": "@cyberpurge-net/voice",
 	"version": "0.16.0",
 	"description": "Implementation of the Discord Voice API for Node.js",
 	"scripts": {
@@ -46,11 +46,11 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git",
+		"url": "https://github.com/cyberpurge-net/discord.js.git",
 		"directory": "packages/voice"
 	},
 	"bugs": {
-		"url": "https://github.com/discordjs/discord.js/issues"
+		"url": "https://github.com/cyberpurge-net/discord.js/issues"
 	},
 	"homepage": "https://discord.js.org",
 	"dependencies": {
